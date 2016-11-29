@@ -112,7 +112,7 @@ ehthumbs.db
 .target
 .tern-project
 .texlipse
-bin/
+# bin/
 local.properties
 tmp/
 
