@@ -117,8 +117,8 @@ secring.*
 *.jar
 *.war
 .mtj.tmp/
+.oracle_jre_usage/
 hs_err_pid*
-oracle_jre_usage/
 
 # JetBrains
 ##############################################################################
