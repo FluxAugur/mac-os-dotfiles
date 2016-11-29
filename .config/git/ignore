@@ -4,14 +4,18 @@
 .AppleDB
 .AppleDesktop
 .AppleDouble
+.DocumentRevisions-V100
 .DS_Store
 .DS_Store?
 .LSOverride
 .Spotlight-V100
+.TemporaryItems
 .Trash
 .Trashes
-.idea/
-.vagrant/
+.VolumeIcon.icns
+.apdisk
+.com.apple.timemachine.donotpresent
+.fseventsd
 Icon
 Network Trash Folder
 Temporary Items
@@ -31,15 +35,28 @@ ehthumbs.db
 *.o
 *.so
 
-# Packages
+# Archives and packages
 ##############################################################################
 *.7z
+*.bzip
+*.bz2
+*.cab
+*.deb
 *.dmg
+*.egg
+*.gem
 *.gz
 *.iso
 *.jar
+*.lzma
+*.msi
+*.msm
+*.msp
 *.rar
+*.rpm
 *.tar
+*.xpi
+*.xz
 *.zip
 
 # Logs and databases
@@ -47,3 +64,188 @@ ehthumbs.db
 *.log
 *.sql
 *.sqlite
+
+# Dropbox settings and caches
+##############################################################################
+.dropbox
+.dropbox.attr
+.dropbox.cache
+
+# CVS
+##############################################################################
+/CVS/*
+**/CVS/*
+.cvsignore
+*/.cvsignore
+
+# Eclipse
+##############################################################################
+*.bak
+*.launch
+*~.nib
+*.pydevproject
+*.swp
+*.tmp
+.buildpath
+.classpath
+.cproject
+.factorypath
+.externalToolBuilders/
+.loadpath
+.metadata
+.project
+.recommenders
+.recommenders/
+.settings/
+.springBeans
+.target
+.tern-project
+.texlipse
+bin/
+local.properties
+tmp/
+
+# GPG
+##############################################################################
+secring.*
+
+# JetBrains
+##############################################################################
+*.iws
+/out/
+.idea_modules/
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/dynamic.xml
+.idea/gradle.xml
+.idea/libraries
+.idea/mongoSettings.xml
+.idea/sqlDataSources.xml
+.idea/tasks.xml
+.idea/uiDesigner.xml
+.idea/workspace.xml
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Linux
+##############################################################################
+*~
+.Trash-*
+.directory
+.fuse_hidden*
+.nfs*
+
+# Mercurial
+##############################################################################
+.hg/
+.hgignore
+.hgsigs
+.hgsub
+.hgsubstate
+.hgtags
+
+# MS Office
+##############################################################################
+*.xlk
+*.~vsdx
+~$*.doc*
+~$*.ppt*
+~$*.xls*
+
+# Redis
+##############################################################################
+*.rdb
+
+# SVN
+##############################################################################
+.svn/
+
+# Sublime Text
+##############################################################################
+*.stTheme.cache
+# *.sublime-project
+*.sublime-workspace
+*.tmPreferences.cache
+*.tmlanguage.cache
+GitHub.sublime-settings
+Package Control.cache/
+Package Control.ca-bundle
+Package Control.ca-certs/
+Package Control.ca-list
+Package Control.last-run
+Package Control.system-ca-bundle
+bh_unicode_properties.cache
+sftp-config.json
+
+# Tags
+##############################################################################
+.TAGS
+.tags
+!TAGS/
+!tags/
+GPATH
+GRTAGS
+GSYMS
+GTAGS
+TAGS
+cscope.files
+cscope.in.out
+cscope.out
+cscope.po.out
+gtags.files
+tags
+
+# Vagrant
+##############################################################################
+.vagrant/
+
+# Vim
+##############################################################################
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+Session.vim
+.netrwhist
+*~
+tags
+
+# Virtualenv
+##############################################################################
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+
+# MS Windows
+##############################################################################
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Xcode
+##############################################################################
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+*.xccheckout
+*.xcscmblueprint
+!default.mode1v3
+!default.mode2v3
+!default.pbxuser
+!default.perspectivev3
+DerivedData/
+build/
+xcuserdata/
