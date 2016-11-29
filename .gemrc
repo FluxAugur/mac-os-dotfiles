@@ -1,0 +1,5 @@
+gem: --no-document # skip installation of all documentation
+
+# Or add these to skip either ri or rdoc documentation
+# gem: --no-ri
+# gem: --no-rdoc
