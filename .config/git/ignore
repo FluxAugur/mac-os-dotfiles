@@ -168,6 +168,29 @@ fabric.properties
 ~$*.ppt*
 ~$*.xls*
 
+# Node
+##############################################################################
+*.log
+*.pid
+*.pid.lock
+*.seed
+*.tgz
+.eslintcache
+.grunt
+.lock-wscript
+.node_repl_history
+.npm
+.nyc_output
+.yarn-integrity
+build/Release
+coverage
+jspm_packages
+lib-cov
+logs
+node_modules
+npm-debug.log*
+pids
+
 # Redis
 ##############################################################################
 *.rdb
