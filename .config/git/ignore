@@ -379,6 +379,7 @@ Public/
 .atom
 .backup
 .bash_history
+.bash_sessions
 .berkshelf
 .brew
 .byebug_hist
