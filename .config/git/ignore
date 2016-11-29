@@ -251,14 +251,14 @@ build/
 xcuserdata/
 
 # macOS home directories
-~/Applications/
-~/Code/
-~/Desktop/
-~/Documents/
-~/Downloads/
-~/Dropbox/
-~/Library/
-~/Movies/
-~/Music/
-~/Pictures/
+Applications/
+Code/
+Desktop/
+Documents/
+Downloads/
+Dropbox/
+Library/
+Movies/
+Music/
+Pictures/
 Public/
