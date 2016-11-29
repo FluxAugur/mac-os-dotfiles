@@ -395,7 +395,7 @@ Public/
 .kodi
 .lein/
 .lesshst
-.local
+# .local # Ignore specific subdirectories
 .m2/
 .middleman
 .muttrc
