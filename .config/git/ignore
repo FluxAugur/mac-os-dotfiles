@@ -392,6 +392,7 @@ Public/
 .guard_history
 .heroku
 .hk
+.kodi
 .lein/
 .lesshst
 .local
