@@ -161,6 +161,39 @@ fabric.properties
 ##############################################################################
 *.rdb
 
+# Ruby
+##############################################################################
+*.bridgesupport
+# *.gem # Ignored in 'Archives and packages'
+*.rbc
+/.bundle/
+/.config
+/.yardoc/
+/_yardoc/
+/InstalledFiles
+/coverage/
+/doc/
+/lib/bundler/man/
+/pkg/
+/rdoc/
+/spec/examples.txt
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+/vendor/bundle
+.dat*
+.env
+.repl_history
+.ruby-gemset
+.ruby-version
+.rvmrc
+Gemfile.lock
+build/
+build-iPhoneOS/
+build-iPhoneSimulator/
+vendor/Pods/
+
 # SVN
 ##############################################################################
 .svn/
@@ -181,6 +214,10 @@ Package Control.last-run
 Package Control.system-ca-bundle
 bh_unicode_properties.cache
 sftp-config.json
+
+# Subversion
+##############################################################################
+.subversion/
 
 # Tags
 ##############################################################################
