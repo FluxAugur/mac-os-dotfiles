@@ -223,7 +223,7 @@ pids
 # *.gem # Ignored in 'Archives and packages'
 *.rbc
 /.bundle/
-/.config
+# /.config
 /.yardoc/
 /_yardoc/
 /InstalledFiles
