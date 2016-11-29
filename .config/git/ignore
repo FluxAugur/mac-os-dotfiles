@@ -4,6 +4,7 @@
 .AppleDB
 .AppleDesktop
 .AppleDouble
+.CFUserTextEncoding
 .DocumentRevisions-V100
 .DS_Store
 .DS_Store?
@@ -62,9 +63,13 @@ ehthumbs.db
 # Logs and databases
 ##############################################################################
 .cache/
+.ctrlp_cache
+.cups/
 *.log
 *.sql
 *.sqlite
+.postgres
+.sqlite_history
 
 # Dropbox settings and caches
 ##############################################################################
@@ -78,6 +83,11 @@ ehthumbs.db
 **/CVS/*
 .cvsignore
 */.cvsignore
+
+# Docker
+##############################################################################
+.docker/
+.dockercfg
 
 # Eclipse
 ##############################################################################
@@ -106,8 +116,15 @@ bin/
 local.properties
 tmp/
 
+# Git and github
+##############################################################################
+.gist
+.git
+
 # GPG
 ##############################################################################
+.gnupg
+.gpg*
 secring.*
 
 # Java
@@ -117,6 +134,7 @@ secring.*
 *.ear
 *.jar
 *.war
+.jdk/
 .mtj.tmp/
 .oracle_jre_usage/
 hs_err_pid*
@@ -179,8 +197,10 @@ fabric.properties
 .eslintcache
 .grunt
 .lock-wscript
+.node-gyp
 .node_repl_history
 .npm
+.nvm
 .nyc_output
 .yarn-integrity
 build/Release
@@ -195,6 +215,7 @@ pids
 # Redis
 ##############################################################################
 *.rdb
+.rediscli_history
 
 # Ruby
 ##############################################################################
@@ -217,11 +238,19 @@ pids
 /test/version_tmp/
 /tmp/
 /vendor/bundle
+.bundle
 .dat*
 .env
+.irb-history
+.irb/history
+.irb_history
+.rbenv/
+.rbx/
 .repl_history
+.rubinius_last_error
 .ruby-gemset
 .ruby-version
+.rvm
 .rvmrc
 Gemfile.lock
 build/
@@ -252,6 +281,7 @@ sftp-config.json
 
 # Subversion
 ##############################################################################
+.subversion
 .subversion/
 
 # Tags
@@ -275,6 +305,7 @@ tags
 # Vagrant
 ##############################################################################
 .vagrant/
+.vagrant.d
 
 # Vim
 ##############################################################################
@@ -282,6 +313,10 @@ tags
 [._]s[a-w][a-z]
 Session.vim
 .netrwhist
+.nviminfo
+.nvimlog
+.vim/.viminfo
+.vim/bundle
 *~
 tags
 
@@ -323,6 +358,7 @@ build/
 xcuserdata/
 
 # macOS home directories
+##############################################################################
 Applications/
 Code/
 Desktop/
@@ -334,3 +370,52 @@ Movies/
 Music/
 Pictures/
 Public/
+
+# Other
+##############################################################################
+*.pem
+# *.tmp # Ignored in 'Eclipse'
+.adobe
+.atom
+.backup
+.bash_history
+.berkshelf
+.brew
+.byebug_hist
+.drip
+.ec2
+.electrum
+.emacs.d/
+.erlang.cookie
+.gradle
+.guard_history
+.heroku
+.hk
+.lein/
+.lesshst
+.local
+.m2/
+.middleman
+.muttrc
+.netrc
+.offlineimap/
+.offlineimaprc
+.overtone/
+.packer.d
+.pry_history
+.python-eggs
+.rnd
+.sh_history
+.ssh
+.sup/
+.terraform.d
+.travis
+.trvs
+.tugboat
+.wireshark
+.wireshark-etc
+.zinc
+.zsh/.*
+.zsh/secrets.zsh
+.zsh_history
+/[A-Z]*
