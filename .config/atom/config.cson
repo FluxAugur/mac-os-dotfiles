@@ -1,0 +1,49 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "fc7c43b9-486e-48f4-b25a-498e1409ad6c"
+    html:
+      beautify_on_save: true
+      end_with_newline: true
+      indent_size: 2
+      wrap_attributes_indent_size: 2
+  "autocomplete-plus": {}
+  core:
+    audioBeep: false
+    disabledPackages: [
+      "symbols-view"
+      "metrics"
+    ]
+    excluseVcsIgnoredPaths: false
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "skeletor-syntax"
+    ]
+  editor: {
+    fontFamily: "Hack"
+    fontSize: 15
+    invisibles: {}
+    tabLength: 2
+  }
+  "exception-reporting":
+    userId: "ab446130-11be-ae61-788f-176b73259e57"
+  linter: {}
+  "linter-sass-lint":
+    globalNodePath: "/usr/local"
+    globalSassLint: true
+  "linter-shellcheck": {}
+  "markdown-preview":
+  useGitHubStyle: true
+  "sourcegraph-atom":
+  highlightReferencesInFile: false
+  srcTimeout: 60000
+  "vim-mode": {}
+  pigments: {}
+  welcome:
+    showOnStartup: false
+".git-commit.text":
+  editor:
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
