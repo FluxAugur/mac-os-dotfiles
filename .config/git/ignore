@@ -1,23 +1,48 @@
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Icon must ends with two
-.
-Icon
-
-
-# Thumbnails
+# OS generated files
+##############################################################################
 ._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
+.AppleDouble
+.DS_Store
+.DS_Store?
+.LSOverride
+.Spotlight-V100
+.Trashes
+.idea/
+.vagrant/
+Icon
 Network Trash Folder
 Temporary Items
+Thumbs.db
+ehthumbs.db
 
+# Dotfiles git directory
+##############################################################################
 .local/share/dotfiles
+
+# Compiled source
+##############################################################################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+##############################################################################
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+##############################################################################
+*.log
+*.sql
+*.sqlite
