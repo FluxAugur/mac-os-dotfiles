@@ -4,7 +4,7 @@ tap 'caskroom/versions'
 tap 'homebrew/bundle'
 tap 'homebrew/dupes'
 tap 'homebrew/php'
-# tap 'homewbrew/python' # Repository not found
+tap 'homebrew/python'
 
 brew 'awscli'
 brew 'coreutils', args: ['with-default-names']
