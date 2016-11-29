@@ -13,33 +13,42 @@
     disabledPackages: [
       "symbols-view"
       "metrics"
+      "angularjs"
+      "atom-bootstrap4"
+      "browser-plus"
     ]
     excluseVcsIgnoredPaths: false
+    projectHome: "/Users/lastson/Code/Repos"
     telemetryConsent: "no"
     themes: [
-      "one-dark-ui"
-      "skeletor-syntax"
+      "nord-atom-ui"
+      "nord-atom-syntax"
     ]
-  editor: {
-    fontFamily: "Hack"
-    fontSize: 15
+    useCustomTitleBar: true
+  editor:
+    fontFamily: "Source Code Pro"
+    fontSize: 18
     invisibles: {}
-    tabLength: 2
-  }
+    showIndentGuide: true
+    showInvisibles: true
   "exception-reporting":
     userId: "ab446130-11be-ae61-788f-176b73259e57"
+  "file-icons": {}
+  "git-plus":
+    experimental: true
+    gitPath: "/usr/local/bin/git"
+    showFormat: "none"
   linter: {}
   "linter-sass-lint":
     globalNodePath: "/usr/local"
     globalSassLint: true
   "linter-shellcheck": {}
-  "markdown-preview":
-  useGitHubStyle: true
-  "sourcegraph-atom":
-  highlightReferencesInFile: false
-  srcTimeout: 60000
-  "vim-mode": {}
+  "merge-conflicts":
+    gitPath: "/usr/local/bin/git"
+  "nord-atom-ui":
+    darkerFormFocusEffect: true
   pigments: {}
+  "vim-mode": {}
   welcome:
     showOnStartup: false
 ".git-commit.text":
@@ -47,3 +56,6 @@
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
+".text.todo":
+  editor:
+    showIndentGuide: true
