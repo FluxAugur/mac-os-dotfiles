@@ -22,7 +22,7 @@ brew 'mackup'
 brew 'markdown'
 brew 'mas'
 brew 'neovim'
-brew 'node'
+# brew 'node'
 brew 'numpy', args: ['with-python3', 'without-python']
 brew 'openssl'
 brew 'python', args: ['framework', 'with-brewed-openssl']
