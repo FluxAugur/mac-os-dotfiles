@@ -8,6 +8,7 @@
 .DS_Store?
 .LSOverride
 .Spotlight-V100
+.Trash
 .Trashes
 .idea/
 .vagrant/

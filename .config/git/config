@@ -30,7 +30,7 @@
   untracked = cyan
 [core]
   editor = nvim -c 'put_' -c 'startinsert'
-  excludesfile = /Users/lastson/.config/git/ignore
+  excludesfile = $HOME/.config/git/ignore
   pager = less -x 4
 [diff]
   mnemonicprefix = true
