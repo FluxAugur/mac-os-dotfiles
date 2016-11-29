@@ -6,12 +6,6 @@ export HISTSIZE=10000
 
 eval "$(rbenv init -)"
 
-alias dotfiles='git --git-dir=$HOME/.local/share/dotfiles/ --work-tree=$HOME'
-
-#function dotfiles() {
-#  git --git-dir=$HOME/.local/share/dotfiles --work-tree=$HOME "$@"
-#}
-
 function github-create() {
   REPO_NAME=$1
   DIR_NAME=`basename "$(pwd)"`
