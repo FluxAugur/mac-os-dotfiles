@@ -249,3 +249,16 @@ $RECYCLE.BIN/
 DerivedData/
 build/
 xcuserdata/
+
+# macOS home directories
+~/Applications/
+~/Code/
+~/Desktop/
+~/Documents/
+~/Downloads/
+~/Dropbox/
+~/Library/
+~/Movies/
+~/Music/
+~/Picutes/
+~/Public/
