@@ -1,14 +1,20 @@
+#!/bin/bash
 export PATH="/usr/local/sbin:$PATH"
+export HOMEBREW_GITHUB_API_TOKEN="cfd76cc3fa35220605fb050d1dd6b0a4ac05fe6b"
+export NODE_ENV="development"
+export HISTSIZE=10000
 
 eval "$(rbenv init -)"
 
-function dotfiles() {
-  git --git-dir=$HOME/.local/share/dotfiles --work-tree=$HOME "$@"
-}
+alias dotfiles='git --git-dir=$HOME/.local/share/dotfiles/ --work-tree=$HOME'
+
+#function dotfiles() {
+#  git --git-dir=$HOME/.local/share/dotfiles --work-tree=$HOME "$@"
+#}
 
 function github-create() {
   REPO_NAME=$1
-  DIR_NAME=`basename $(pwd)`
+  DIR_NAME=`basename "$(pwd)"`
   if [ "$REPO_NAME" = "" ]; then
     echo "Repo name (hit enter to use '$DIR_NAME')?"
     read REPO_NAME

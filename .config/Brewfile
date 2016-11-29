@@ -4,7 +4,7 @@ tap 'caskroom/versions'
 tap 'homebrew/bundle'
 tap 'homebrew/dupes'
 tap 'homebrew/php'
-tap 'homewbrew/python'
+# tap 'homewbrew/python' # Repository not found
 
 brew 'awscli'
 brew 'coreutils', args: ['with-default-names']
@@ -12,7 +12,7 @@ brew 'findutils', args: ['with-default-names']
 brew 'ffmpeg', args: ['with-default-names']
 brew 'fish'
 brew 'git'
-brew 'gitflow'
+brew 'git-flow-avh'
 brew 'grep', args: ['with-default-names']
 brew 'hub'
 brew 'hubflow'
