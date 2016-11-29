@@ -222,7 +222,7 @@ pids
 *.bridgesupport
 # *.gem # Ignored in 'Archives and packages'
 *.rbc
-~/.gemrc
+.gemrc
 /.bundle/
 # /.config
 /.yardoc/
