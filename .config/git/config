@@ -1,11 +1,8 @@
-# This is Git's per-user configuration file.
-
+[include]
+  path = ~/.private/git/verboten.txt.private
 [user]
   name = Nathanial L. McConnell
   email = fluxaugur@gmail.com
-[github]
-  user = FluxAugur
-  token = cfd76cc3fa35220605fb050d1dd6b0a4ac05fe6b
 [apply]
   whitespace = nowarn
 [branch]
