@@ -20,7 +20,7 @@ brew 'fish'
 brew 'fontconfig'
 brew 'freetype'
 brew 'gcc', args: ['with-default-names']
-brew 'gdk-pxbufl'
+brew 'gdk-pixbuf'
 brew 'gbdm'
 brew 'gettext'
 brew 'git'
