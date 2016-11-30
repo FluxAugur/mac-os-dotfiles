@@ -51,7 +51,6 @@
   autosquash = true
 [rerere]
   enabled = false
-
 [alias]
   ad = add
   ai = add --interactive
@@ -114,7 +113,7 @@
   status = status -s
   svnd = svn dcommit
   svnl = svn log --oneline --show-commit
-  svnr = svn rebase
+  svnr = svn
   theirs = "!f() { git co --theirs $@ && git add $@; }; f"
   unassume = update-index --no-assume-unchanged
   unassumeall = "!git assumed | xargs git update-index --no-assume-unchanged"

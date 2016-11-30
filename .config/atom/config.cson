@@ -1,4 +1,6 @@
 "*":
+  "file-types":
+    ".config/git/config": "source.git-config"
   "atom-beautify":
     general:
       _analyticsUserId: "fc7c43b9-486e-48f4-b25a-498e1409ad6c"
@@ -29,11 +31,15 @@
     fontFamily: "Source Code Pro"
     fontSize: 16
     invisibles: {}
+    scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
   "exception-reporting":
     userId: "ab446130-11be-ae61-788f-176b73259e57"
   "file-icons": {}
+  "file-types":
+    "**/git/config": "source.git-config"
+    "**/git/ignore": "source.git-ignore"
   "git-plus":
     experimental: true
     gitPath: "/usr/local/bin/git"
