@@ -6,36 +6,87 @@ tap 'homebrew/dupes'
 tap 'homebrew/php'
 tap 'homebrew/python'
 
+brew 'autoconf'
+brew 'automake'
 brew 'awscli'
+brew 'boost'
+brew 'cairo'
+brew 'cctools'
+brew 'cmake'
 brew 'coreutils', args: ['with-default-names']
 brew 'findutils', args: ['with-default-names']
 brew 'ffmpeg', args: ['with-default-names']
 brew 'fish'
+brew 'fontconfig'
+brew 'freetype'
+brew 'gcc', args: ['with-default-names']
+brew 'gdk-pxbufl'
+brew 'gbdm'
+brew 'gettext'
 brew 'git'
 brew 'git-flow-avh'
+brew 'glub'
+brew 'gmp'
+brew 'gnu-getopt'
+brew 'gobject-introspection'
 brew 'grep', args: ['with-default-names']
+brew 'harfbuzz'
+brew 'highlight'
 brew 'hub'
 brew 'hubflow'
+brew 'icu4c'
 brew 'imagemagick', args: ['with-webp', 'with-librsvg']
+brew 'isl'
+brew 'jpeg'
 brew 'keybase'
+brew 'kramdown'
+brew 'lame'
+brew 'libcroco'
+brew 'libevent'
+brew 'libffi'
+brew 'libmpc'
+brew 'libpng'
+brew 'libsvg'
+brew 'libtermkey'
+brew 'libtiff'
+brew 'libtool'
+brew 'libuv'
+brew 'libvterm'
+brew 'lua'
 brew 'mackup'
 brew 'markdown'
 brew 'mas'
+brew 'mpfr'
+brew 'msgpack'
 brew 'neovim'
-# brew 'node'
+brew 'node'
 brew 'numpy', args: ['with-python3', 'without-python']
 brew 'openssl'
+brew 'pango'
+brew 'pcre'
+brew 'pcre2'
+brew 'pixman'
+brew 'pkg-config'
 brew 'python', args: ['framework', 'with-brewed-openssl']
 brew 'python3', args: ['framework', 'with-brewed-openssl']
 brew 'rbenv'
+brew 'readline'
+brew 'ruby-build'
 brew 'scipy', args: ['with-python3', 'without-python']
+brew 'shared-mime-info'
 brew 'shellcheck'
 brew 'ssh-copy-id'
+brew 'swig'
 brew 'tmux'
 brew 'trash'
 brew 'tree'
+brew 'unibilium'
 brew 'vim', args: ['override-system-vi']
+brew 'webp'
 brew 'wget'
+brew 'x264'
+brew 'xvid'
+brew 'xz'
 
 cask_args appdir: '~/Applications'
 
@@ -81,7 +132,7 @@ cask 'font-pt-sans'
 cask 'font-pt-serif'
 cask 'font-quicksand'
 cask 'font-raleway'
-#cask 'font-raleway-dots'
+cask 'font-raleway-dots'
 cask 'font-roboto'
 cask 'font-roboto-condensed'
 cask 'font-roboto-mono'
@@ -91,7 +142,7 @@ cask 'font-sauce-code-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
-#cask 'font-telex'
+cask 'font-telex'
 cask 'font-ubuntu'
 cask 'font-ubuntu-mono-powerline'
 cask 'font-vollkorn'
@@ -102,6 +153,7 @@ cask 'atom'
 cask 'caffeine'
 cask 'calibre'
 cask 'cheatsheet'
+cask 'chrome-remote-desktop-host'
 cask 'colorsnapper'
 cask 'dash'
 cask 'doxie'
@@ -120,9 +172,11 @@ cask 'java'
 cask 'karabiner'
 cask 'keybase'
 cask 'kodi'
+cask 'mactex'
 # meld
 cask 'https://gist.githubusercontent.com/tobywf/f731a9aa9ebaec47bb098af9d90cb8b5/raw/1f6acffb47d89a1e9eb32fbb5acea7bd4a065575/meldmerge.rb'
 cask 'mysqlworkbench'
+cask 'postman'
 cask 'quip'
 cask 'rescuetime'
 cask 'sequel-pro'
@@ -149,17 +203,16 @@ cask 'qlstephen'
 cask 'quicklook-csv'
 cask 'quicklook-json'
 cask 'suspicious-package'
-cask 'mactex'
 
-mas '1Password', id: 443987910
-mas 'Byword', id: 420212497
-mas 'Deckset', id: 847496013
-mas 'Giphy Capture', id: 668208984
-mas 'Paw', id: 584653203
-mas 'Sip', id: 507257563
-mas 'Sketch', id: 402476602
-mas 'Tweetbot', id: 557168941
-mas 'Wunderlist', id: 410628904
+# mas '1Password', id: 443987910
+# mas 'Byword', id: 420212497
+# mas 'Deckset', id: 847496013
+# mas 'Giphy Capture', id: 668208984
+# mas 'Paw', id: 584653203
+# mas 'Sip', id: 507257563
+# mas 'Sketch', id: 402476602
+# mas 'Tweetbot', id: 557168941
+# mas 'Wunderlist', id: 410628904
 
 # Airmail
 # Divvy
