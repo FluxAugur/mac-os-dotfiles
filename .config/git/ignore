@@ -229,7 +229,7 @@ pids
 *.bridgesupport
 # *.gem # Ignored in 'Archives and packages'
 *.rbc
-~/.ackrc
+.ackrc
 .gemrc
 /.bundle/
 # /.config
