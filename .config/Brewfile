@@ -164,7 +164,7 @@ cask 'evernote'
 cask 'firefox'
 cask 'flash-npapi'
 cask 'flash-ppapi'
-cask 'fluid'
+# cask 'fluid' # Checksum mismatch on download
 cask 'flux'
 cask 'google-chrome'
 cask 'google-drive'
