@@ -6,6 +6,7 @@ tap 'homebrew/dupes'
 tap 'homebrew/php'
 tap 'homebrew/python'
 
+brew 'ack'
 brew 'autoconf'
 brew 'automake'
 brew 'awscli'
