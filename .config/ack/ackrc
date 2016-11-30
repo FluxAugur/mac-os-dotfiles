@@ -1,0 +1,13 @@
+--color
+--type-add=ruby=.haml,.rake,.rabl,.thor,Gemfile,Thorfile,Rakefile,.hbs
+--type-add=js=.coffee
+--type-add=css=.css,.sass,.scss
+
+--type-set=exclude=.orig
+--noexclude
+
+--ignore-dir=data
+--ignore-dir=tmp
+--ignore-dir=public
+--ignore-dir=bower_components
+--ignore-dir=node_modules
