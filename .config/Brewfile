@@ -39,7 +39,6 @@ brew 'imagemagick', args: ['with-webp', 'with-librsvg']
 brew 'isl'
 brew 'jpeg'
 brew 'keybase'
-brew 'kramdown'
 brew 'lame'
 brew 'libcroco'
 brew 'libevent'
