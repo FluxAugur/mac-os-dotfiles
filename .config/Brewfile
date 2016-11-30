@@ -15,6 +15,7 @@ brew 'cairo'
 brew 'cctools'
 brew 'cmake'
 brew 'coreutils', args: ['with-default-names']
+brew 'doxygen'
 brew 'findutils', args: ['with-default-names']
 brew 'ffmpeg', args: ['with-default-names']
 brew 'fish'
