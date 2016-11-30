@@ -200,6 +200,9 @@ fabric.properties
 *.tgz
 .eslintcache
 .grunt
+.local/share/bin/httpcompression
+.local/share/fish
+.local/share/subtrees
 .lock-wscript
 .node-gyp
 .node_repl_history
@@ -226,6 +229,7 @@ pids
 *.bridgesupport
 # *.gem # Ignored in 'Archives and packages'
 *.rbc
+~/.ackrc
 .gemrc
 /.bundle/
 # /.config
