@@ -21,7 +21,7 @@ brew 'fontconfig'
 brew 'freetype'
 brew 'gcc', args: ['with-default-names']
 brew 'gdk-pixbuf'
-brew 'gbdm'
+brew 'gdbm'
 brew 'gettext'
 brew 'git'
 brew 'git-flow-avh'
