@@ -202,7 +202,7 @@ fabric.properties
 .grunt
 .local/share/bin/httpcompression
 .local/share/fish
-.local/share/subtrees
+.local/share/bin/subtrees
 .lock-wscript
 .node-gyp
 .node_repl_history
@@ -232,7 +232,8 @@ pids
 .ackrc
 .gemrc
 /.bundle/
-# /.config
+/.config/configstore
+/.config/fish/fishd*
 /.yardoc/
 /_yardoc/
 /InstalledFiles
@@ -387,6 +388,7 @@ Public/
 .adobe
 .atom
 .backup
+.bash_aliases
 .bash_history
 .bash_sessions
 .berkshelf
