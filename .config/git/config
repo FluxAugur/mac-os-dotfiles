@@ -61,6 +61,13 @@
   autosquash = true
 [rerere]
   enabled = false
+[url "https://github.com/"]
+  insteadOf = gh:
+[url "https://gist.github.com/"]
+  insteadOf = gist:
+[url "https://bitbucket.org/"]
+  insteadOf = bb:
+
 [alias]
   ad = add
   ai = add --interactive
