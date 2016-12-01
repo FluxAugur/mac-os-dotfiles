@@ -43,6 +43,6 @@ brew cask cleanup
 
 rm -rf "$HOME/.bash_history" "$HOME/.bash_sessions" "$HOME/.subversion/"
 
-if [[ ! -f "$HOME/.config/Hombrew.terminal" ]]; then
+if [[ ! -f "$HOME/.config/Homebrew.terminal" ]]; then
   git --git-dir="$HOME/.local/shared/dotfiles" --work-tree="$HOME" checkout -- "$HOME/.config/Homebrew.terminal"
 fi
