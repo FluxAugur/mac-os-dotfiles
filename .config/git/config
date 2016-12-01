@@ -48,10 +48,16 @@
   cma = "!f() { git ci --all --message=\"$1\"; }; f"
   dc = !git d --cached
   dw = !git d --word-diff
-  #fl = log -u
-  lc = "!f() { git ll \"$1\"^..\"$1\"; }; f"
-  ll = !git l --pretty=format:%Cgreen%h%Cred%d\\ %Creset%s%Cblue\\ [%cn] --decorate --numstat
+  la = !git cf -l | grep alias | cut -c 7-
+  last = "!gvim $(git show HEAD --format="" --name-only | grep -e .*md$ | xargs)"
+  #lc = "!f() { git ll \"$1\"^..\"$1\"; }; f"
+  ld = !git l --decorate --graph --format='%Cblue%ad%Creset %C(yellow)%h%Creset%Cgreen%d%Creset\\ %s\\ [%an]'
+  lg = log --decorate --graph --oneline
+  #lf = !git ls-files | grep -i
+  ll = !git l --pretty=format:'%Cgreen%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]' --decorate --numstat
   lo = !git l --oneline --max-count=15
+  lp = log --patch
+  ls = !git l --pretty=format:'%Cgreen%h\\ %C(yellow)[%ad]%Cred%d\\ %Creset%s%Cblue\\ [%cn]' --decorate --date=relative
   lt = !git de --tags --abbrev=0
   r1 = !git r HEAD^
   r2 = !git r HEAD^^
