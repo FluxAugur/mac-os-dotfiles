@@ -14,19 +14,19 @@
   status = auto
   ui = true
 [color "branch"]
-  current = red reverse
-  local = blue
+  current = yello reverse
+  local = yellow
   remote = green
 [color "diff"]
-  meta = yellow
-  frag = magenta
+  meta = yellow bold
+  frag = magenta bold
   old = red bold
-  new = green
-  plain = white
+  new = green bold
+  plain = white bold
 [color "status"]
   added = yellow
   changed = green
-  untracked = cyan
+  untracked = red
 [core]
   editor = nvim -c 'put_' -c 'startinsert'
   excludesfile = $HOME/.config/git/ignore
