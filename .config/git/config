@@ -4,7 +4,7 @@
   ap = apply
   bi = bisect
   bl = blame
-  br = branch --all --remotes --verbose
+  br = branch -arv
   cf = config
   ci = commit
   cl = clone
@@ -13,7 +13,7 @@
   d = diff
   de = describe
   f = fetch
-  g = grep -I --line-number --ignore-case
+  g = grep -Iin
   h = help
   i = init
   l = log
@@ -31,43 +31,83 @@
   sh = shortlog
   sl = stash list
   ss = stash save
-  st = status --short
+  st = status -s
   su = submodule
   sw = show
   t = tag
   wl = worktree list
   # Frequently used
-  ai = !git a --interactive
-  addremove = !git r && git a . --all
-  alias = !git cf --list | grep 'alias.' | sed 's/alias.\\([^=]*\\)=\\(.*\\)/\\1 \t => \\2/' | sort | uniq
-  all = !git a . --all
+  aa = !git a . -a
+  ai = !git a -i
+  #addremove = !git r && git a . -A
+  alias = !git cf -l | grep 'alias.' | sed 's/alias.\\([^=]*\\)=\\(.*\\)/\\1 \t => \\2/' | sort | uniq
+  #assume = !git update-index --assume-unchanged
+  #assumeall = !git status -s | awk {'print $2'} | xargs git assume
+  #assumed = !git ls-files -v | grep ^h | cut -c 3-
+  bd = !git br -D
   ca = !git ci --amend
-  caa = !git ca --all --reuse-message=HEAD
-  cae = !git ca --edit
-  cm = "!f() { git ci --message=\"$1\"; }; f"
-  cma = "!f() { git ci --all --message=\"$1\"; }; f"
+  caa = !git ca -aC HEAD
+  cae = !git ca -e
+  churn = !git log --all -M -C --name-only --format='format:' "$@" | sort | grep -v '^$' | uniq -c | sort | awk 'BEGIN {print "count,file"} {print $1 "," $2}'
+  cm = !git ci -m
+  cma = !git ci -am
   dc = !git d --cached
+  dch = !git d --cached HEAD^
+  details = log -n1 -p --format=fuller
+  dr = !git d -w $1^..$1
   dw = !git d --word-diff
+  empty = !git cma '[empty] Initial commit' --allow-empty
+  export = archive -o latest.tar.gz -9 --prefix=latest/
+  gd = !git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  gf = !git ls-files | grep -i
   la = !git cf -l | grep alias | cut -c 7-
-  last = "!gvim $(git show HEAD --format="" --name-only | grep -e .*md$ | xargs)"
-  #lc = "!f() { git ll \"$1\"^..\"$1\"; }; f"
-  ld = !git l --decorate --graph --format='%Cblue%ad%Creset %C(yellow)%h%Creset%Cgreen%d%Creset\\ %s\\ [%an]'
-  lg = log --decorate --graph --oneline
-  #lf = !git ls-files | grep -i
-  ll = !git l --pretty=format:'%Cgreen%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]' --decorate --numstat
-  lo = !git l --oneline --max-count=15
-  lp = log --patch
-  ls = !git l --pretty=format:'%Cgreen%h\\ %C(yellow)[%ad]%Cred%d\\ %Creset%s%Cblue\\ [%cn]' --decorate --date=relative
-  lt = !git de --tags --abbrev=0
+  # last = !gvim $(git sw HEAD --format="" --name-only | grep -e .*md$ | xargs)
+  lastlog = !git l --decorate -1 HEAD
+  lasttag = !git de --abbrev=0 --tags
+  # lt = !git de --abbrev=0 --tags
+  lst = !git t -l
+  # lc = "!f() { git ll \"$1\"^..\"$1\"; }; f"
+  ld = !git l --decorate --format='%C(blue)%ad%Creset\\ %C(yellow)%h%Creset%C(green)%d%Creset\\ %s\\ [%an]' --graph
+  lg = !git l --decorate --graph --oneline
+  ll = !git l --decorate --numstat --pretty=format:'%Cgreen%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]'
+  ln = !git l --pretty=format:'%h\\ %s\\ [%cn]'
+  lo = !git l --oneline -15
+  lp = !git l -u
+  ls = !git l --decorate --date=relative --pretty=format:'%Cgreen%h\\ %C(yellow)[%ad]%Cred%d\\ %Creset%s%Cblue\\ [%cn]'
+  lt = "!f() { git log $* | grep '^commit ' | cut -f 2 -d ' '; }; f"
+  r00 = !git ls-files -z --deleted | xargs -0 git rm
   r1 = !git r HEAD^
   r2 = !git r HEAD^^
+  rem = !git cf -l | grep remote.*url | tail -1
   rh = !git r --hard
-  rh1 = !git r HEAD^ --hard
-  rh2 = !git r HEAD^^ --hard
-
-  undo = "!f() { git r --hard $(git rev-parse --abbrev-ref HEAD)@{${1-1}}; }; f"
+  rh1 = !git r --hard HEAD^
+  rh2 = !git r --hard HEAD^^
+  #unassume = update-index --no-assume-unchanged
+  #unassumeall = !git assumed | xargs git update-index --no-assume-unchanged
+  root = !git rev-parse --show-toplevel
+  undo = !git r --hard $(git rev-parse --abbrev-ref HEAD)@{${1-1}}
   unstage = !git r HEAD --
-  up = !git pl --rebase
+  up = !git pl -r
+  amend = !git l --pretty=tformat:%s%n%n%b -1 | git ca -F -
+  # brname = !git br | grep "^*" | awk '{print $2}'
+  # cleanup = !git branch | grep -E '^[^*]' | xargs git branch -d
+  # diffr = "!f() { git diff "$1"^.."$1"; }; f"
+  done = "!f() { git branch | grep \"$1\" | cut -c 3- | grep -v done | xargs -I{} git branch -m {} done-{}; }; f"
+  # gra = "!f() { A=$(pwd) && TOPLEVEL=$(git rev-parse --show-toplevel) && cd $TOPLEVEL && git grep --full-name -In $1 | xargs -I{} echo $TOPLEVEL/{} && cd $A; }; f"
+  # lap = "!f() { git --git-dir=$1 format-patch -k -1 --stdout $2 | git am -3 -k; }; f"
+  # ours = "!f() { git co --ours $@ && git add $@; }; f"
+  # newmd = "!gvim $(git status -s | awk { 'print $2' })"
+  # ra = "!f() { git remote add $1 https://bitbucket.org/$2.git; }; f"
+  # sba = "!f() { git subtree add --prefix $2 $1 master --squash; }; f"
+  # sbu = "!f() { git subtree pull --prefix $2 $1 master --squash; }; f"
+  # serve = "!git daemon --verbose --reuseaddr --export-all --strict-paths --base-path=.git .git/"
+  subup = git submodule update --init
+  # svnd = svn dcommit
+  # svnl = svn log --oneline --show-commit
+  # svnr = svn
+  # theirs = "!f() { git co --theirs $@ && git add $@; }; f"
+  this = !git init && git add . && git commmit -m \"Initial commit.\"
+  trim = !git reflog expire --expire=now --all && git gc --prune=now
 
 [apply]
   whitespace = nowarn
