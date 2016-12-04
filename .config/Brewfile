@@ -5,7 +5,7 @@ tap 'homebrew/bundle'
 tap 'homebrew/dupes'
 tap 'homebrew/php'
 tap 'homebrew/python'
-tap 'fisherman/tap'
+# tap 'fisherman/tap'
 
 brew 'ack'
 brew 'autoconf'
@@ -21,7 +21,7 @@ brew 'doxygen'
 brew 'findutils', args: ['with-default-names']
 brew 'ffmpeg', args: ['with-default-names']
 brew 'fish'
-brew 'fisherman'
+# brew 'fisherman'
 brew 'fontconfig'
 brew 'freetype'
 brew 'gcc', args: ['with-default-names']

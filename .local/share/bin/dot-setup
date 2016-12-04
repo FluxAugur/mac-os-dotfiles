@@ -38,6 +38,10 @@ if [[ "$SHELL" != "$FISH" ]]; then
   chsh -s "$FISH"
 fi
 
+# install fisherman
+#   https://github.com/fisherman/fisherman
+curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher
+
 brew cleanup
 brew cask cleanup
 
