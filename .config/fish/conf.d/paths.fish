@@ -1,0 +1,1 @@
+/Users/lastson/.config/fisherman/paths/conf.d/paths.fish

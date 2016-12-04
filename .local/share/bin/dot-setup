@@ -42,6 +42,10 @@ fi
 #   https://github.com/fisherman/fisherman
 curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher
 
+# install oh-my-fish
+#   https://github.com/oh-my-fish/oh-my-fish
+curl -L http://get.oh-my.fish | fish
+
 brew cleanup
 brew cask cleanup
 
