@@ -1,1 +1,1 @@
-/Users/lastson/.local/share/omf/themes/es/fish_prompt.fish
+/Users/lastson/.local/share/omf/themes/bobthefish/fish_prompt.fish
