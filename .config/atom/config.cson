@@ -1,6 +1,4 @@
 "*":
-  "file-types":
-    "git/config": "source.git-config"
   "atom-beautify":
     general:
       _analyticsUserId: "fc7c43b9-486e-48f4-b25a-498e1409ad6c"
@@ -18,6 +16,8 @@
       "angularjs"
       "atom-bootstrap4"
       "browser-plus"
+      "atom-bootstrap3"
+      "linter-sass-lint"
     ]
     excluseVcsIgnoredPaths: false
     projectHome: "/Users/lastson/Code/Repos"
@@ -46,8 +46,11 @@
     showFormat: "none"
   linter: {}
   "linter-sass-lint":
+    configFile: "~/.sass-lint.yml"
     globalNodePath: "/usr/local"
     globalSassLint: true
+    noConfigDisable: true
+  "linter-scss-lint": {}
   "linter-shellcheck": {}
   "merge-conflicts":
     gitPath: "/usr/local/bin/git"
