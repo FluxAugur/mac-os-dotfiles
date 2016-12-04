@@ -64,29 +64,30 @@ set -g theme_powerline_fonts no
 set -g theme_nerd_fonts yes
 set -g theme_show_exit_status yes
 set -g default_user lastson
-
-set -g theme_color_scheme user
-set -l colorfg 2E3440
-
-set -g __color_initial_segment_exit  2E3440 ce000f --bold
-set -g __color_initial_segment_su    3B4252 189303 --bold
-set -g __color_initial_segment_jobs  ECEFF4 255e87 --bold
-
-set -g __color_path                  333333 999999
-set -g __color_path_basename         333333 ffffff --bold
-set -g __color_path_nowrite          660000 cc9999
-set -g __color_path_nowrite_basename 660000 cc9999 --bold
-
-set -g __color_repo                  addc10 0c4801
-set -g __color_repo_work_tree        addc10 ffffff --bold
-set -g __color_repo_dirty            ce000f ffffff
-set -g __color_repo_staged           f6b117 3a2a03
-
-set -g __color_vi_mode_default       999999 333333 --bold
-set -g __color_vi_mode_insert        189303 333333 --bold
-set -g __color_vi_mode_visual        f6b117 3a2a03 --bold
-
-set -g __color_vagrant               48b4fb ffffff --bold
-set -g __color_username              cccccc 255e87
-set -g __color_rvm                   af0000 cccccc --bold
-set -g __color_virtualfish           005faf cccccc --bold
+set -g theme_color_scheme terminal-dark
+# set -g theme_color_scheme user
+# set -l bg 2E3440
+# set -l fg D8DEE9
+#
+# set -g __color_initial_segment_exit  E5E9F0 BF616A --bold
+# set -g __color_initial_segment_su    E5E9F0 A3BE8C --bold
+# set -g __color_initial_segment_jobs  E5E9F0 81A1C1 --bold
+#
+# set -g __color_path                  3B4252 8FBCBB
+# set -g __color_path_basename         3B4252 8FBCBB --bold
+# set -g __color_path_nowrite          BF616A E5E9F0
+# set -g __color_path_nowrite_basename BF616A E5E9F0 --bold
+#
+# set -g __color_repo                  B48EAD 3B4252
+# set -g __color_repo_work_tree        B48EAD ffffff --bold
+# set -g __color_repo_dirty            D08770 ECEFF4
+# set -g __color_repo_staged           EBCB8B 3B4252
+#
+# set -g __color_vi_mode_default       999999 434C5E --bold
+# set -g __color_vi_mode_insert        A3BE8C 434C5E --bold
+# set -g __color_vi_mode_visual        EBCB8B 434C5E --bold
+#
+# set -g __color_vagrant               81A1C1 E5E9F0 --bold
+# set -g __color_username              434C5E 88C0D0
+# set -g __color_rvm                   D08770 ECEFF4 --bold
+# set -g __color_virtualfish           5E81AC ECEFF4 --bold
