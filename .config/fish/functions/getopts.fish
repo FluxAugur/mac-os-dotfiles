@@ -1,0 +1,1 @@
+/Users/lastson/.config/fisherman/getopts/getopts.fish

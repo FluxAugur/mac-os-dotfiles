@@ -49,5 +49,5 @@ dotfiles checkout
 dotfiles config --local stats.showUntrackedFiles no
 
 # -- Setup
-cd "$HOME/.local/share/bin/"
-source dot-setup
+# shellcheck source=$HOME/.local/share/bin/dot-setup
+source "$HOME/.local/share/bin/dot-setup"

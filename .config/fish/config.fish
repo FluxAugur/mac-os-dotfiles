@@ -31,4 +31,11 @@ alias dot "git --git-dir=$DOTFILES --work-tree=$HOME"
 # homebrew
 set -gx HOMEBREW_CASK_OPTS "--appdir=$HOME/Applications"
 
+# base directories
+#   https://specifications.freedesktop.org/basedir-spec/basedir-spec-0.6.html
+set -gx XDG_DATA_HOME "$HOME/.local/share"
+set -gx XDG_CONFIG_HOME "$HOME/.config"
+set -gx XDG_CACHE_HOME "$HOME/.cache"
+
+# add user binaries to path
 set -gx PATH "$HOME/.local/share/bin/" $PATH
