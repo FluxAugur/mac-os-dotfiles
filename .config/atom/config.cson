@@ -18,6 +18,7 @@
       "browser-plus"
       "atom-bootstrap3"
       "linter-sass-lint"
+      "linter-bootlint"
     ]
     excluseVcsIgnoredPaths: false
     projectHome: "/Users/lastson/Code/Repos"
@@ -44,6 +45,9 @@
     experimental: true
     gitPath: "/usr/local/bin/git"
     showFormat: "none"
+  htmlhint:
+    hideOnNoErrors: true
+    useFoldModeAsDefault: true
   linter: {}
   "linter-sass-lint":
     configFile: "~/.sass-lint.yml"
