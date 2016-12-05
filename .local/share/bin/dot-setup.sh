@@ -27,6 +27,7 @@ if [[ ! -f "$HOME/.config/Brewfile" ]]; then
 fi
 
 brew bundle --file="$HOME/.config/Brewfile"
+brew update && brew upgrade -y && brew cu
 
 FISH=$(which fish)
 
