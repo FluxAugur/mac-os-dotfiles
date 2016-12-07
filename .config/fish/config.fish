@@ -15,7 +15,7 @@ alias tmux "tmux -2f $HOME/.config/tmux/config"
 alias dot "git --git-dir=$DOTFILES --work-tree=$HOME"
 
 # add user binaries to path
-set -gx PATH "$HOME/.local/share/bin/" $PATH
+set -gx PATH "$HOME/.local/share/bin" $PATH
 
 # config bobthefish
 #   https://github.com/oh-my-fish/theme-bobthefish
