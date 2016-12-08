@@ -1,3 +1,3 @@
 function update-npms -d "Update, dedupe, and prune npm and global packages"
-  command npm i -g npm; and npm i -g npm-check-updates; ncu -g -u; npm -g ddp; npm -g prune; and npm cache clean
+  command pnpm i -g npm pnpm npm-check-updates; and pnpm i -g (ncu -g | cut -d' ' -f2); and npm -g ddp; and npm cache clean
 end

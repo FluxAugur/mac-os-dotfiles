@@ -14,6 +14,9 @@ alias tmux "tmux -2f $HOME/.config/tmux/config"
 # https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/
 alias dot "git --git-dir=$DOTFILES --work-tree=$HOME"
 
+set -gx NPM_CHECK_INSTALLER "pnpm npm-check -u"
+set -gx PATH "$HOME/.pnpm/node_modules/.bin" $PATH
+
 # add gnu commands to path and man
 set -gx PATH "/usr/local/opt/coreutils/libexec/gnubin" $PATH
 set -gx MANPATH "/usr/local/opt/coreutils/libexec/gnuman" $PATH

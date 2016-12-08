@@ -7,6 +7,8 @@ function update-all -d "Update macOS software, Homebrew brews & casks, gems, pac
   command update-casks
   # NPM updates
   command update-npms
-
-
+  # Gem updates
+  command update-gems
+  # APM updates
+  command update-apms
 end
