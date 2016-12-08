@@ -12,7 +12,7 @@ brew 'ack'
 brew 'autoconf'
 brew 'automake'
 brew 'awscli'
-brew 'binutils', args: ['with-default-names']
+brew 'binutils'
 brew 'bfg'
 brew 'boost'
 brew 'cairo'
@@ -41,7 +41,7 @@ brew 'gnu-sed', args: ['with-default-names']
 brew 'gnu-tar', args: ['with-default-names']
 brew 'gnu-which', args: ['with-default-names']
 brew 'gobject-introspection'
-brew 'homebrew/dupes/grep', args: ['with-default-names']
+brew 'grep', args: ['with-default-names']
 brew 'gzip'
 brew 'harfbuzz'
 brew 'highlight',
@@ -90,7 +90,7 @@ brew 'rbenv-gemset'
 brew 'readline'
 brew 'ruby-build'
 brew 'scipy', args: ['with-python3', 'without-python']
-brew 'homebrew/dupes/screen'
+brew 'screen'
 brew 'shared-mime-info'
 brew 'shellcheck'
 brew 'ssh-copy-id'
