@@ -41,7 +41,6 @@ brew 'gnu-sed', args: ['with-default-names']
 brew 'gnu-tar', args: ['with-default-names']
 brew 'gnu-which', args: ['with-default-names']
 brew 'gobject-introspection'
-brew 'gpg'
 brew 'homebrew/dupes/grep', args: ['with-default-names']
 brew 'gzip'
 brew 'harfbuzz'
