@@ -6,8 +6,8 @@ if status --is-interactive
   set -gx PATH "$HOME/.local/share/bin" $PATH
   # add gnu commands to path
   # set -gx PATH "/usr/local/opt/coreutils/libexec/gnubin" $PATH
-  # add pnpm node binariesto path
-  set -gx PATH "$HOME/.pnpm/node_modules/.bin" $PATH
+  # add pnpm node binaries to path
+  #set -gx PATH "$HOME/.pnpm/node_modules/.bin" $PATH
   # add rbenv binaries to path
   source (rbenv init -|psub)
 end
