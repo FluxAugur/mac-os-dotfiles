@@ -4,8 +4,10 @@ tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
 tap 'homebrew/dupes'
+tap 'homebrew/games'
 tap 'homebrew/php'
 tap 'homebrew/python'
+tap 'homebrew/versions'
 
 # No dependencies
 brew 'ack'

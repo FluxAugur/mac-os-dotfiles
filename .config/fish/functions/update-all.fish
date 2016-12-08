@@ -11,4 +11,6 @@ function update-all -d "Update macOS software, Homebrew brews & casks, gems, pac
   update-gems
   # APM updates
   update-apms
+  # Fish completions
+  fish_update_completions
 end
