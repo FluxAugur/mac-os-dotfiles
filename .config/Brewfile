@@ -19,7 +19,7 @@ brew 'cctools'
 brew 'cmake'
 brew 'coreutils', args: ['with-default-names']
 brew 'doxygen'
-brew 'findutils', args: ['with-default-names']
+brew 'findutils', args: ['with-default-names'] # can cause Python builds to fail
 brew 'ffmpeg', args: ['with-default-names']
 brew 'fish'
 # brew 'fisherman'
@@ -75,6 +75,8 @@ brew 'pkg-config'
 brew 'python', args: ['framework', 'with-brewed-openssl']
 brew 'python3', args: ['framework', 'with-brewed-openssl']
 brew 'rbenv'
+brew 'rbenv-default-gems'
+brew 'rbenv-gemset'
 brew 'readline'
 brew 'ruby-build'
 brew 'scipy', args: ['with-python3', 'without-python']

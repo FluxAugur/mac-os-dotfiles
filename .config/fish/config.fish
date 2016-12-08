@@ -14,6 +14,9 @@ alias tmux "tmux -2f $HOME/.config/tmux/config"
 # https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/
 alias dot "git --git-dir=$DOTFILES --work-tree=$HOME"
 
+# add Homebrew's sbin to path
+set -gx PATH "/usr/local/sbin" $PATH
+
 # add user binaries to path
 set -gx PATH "$HOME/.local/share/bin" $PATH
 
