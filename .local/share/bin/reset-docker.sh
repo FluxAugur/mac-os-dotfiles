@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 function col {
   awk -v col=$1 '{print $col}'

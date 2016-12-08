@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 # This script is not idempotent. Be careful!
 set -euo pipefail
