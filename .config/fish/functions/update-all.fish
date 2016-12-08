@@ -1,4 +1,6 @@
 function update-all -d "Update macOS software, Homebrew brews & casks, gems, packages (apms, npms), repos"
+  # Ask for the administrator password upfront
+  sudo -v
   # macOS software updates
   update-os
   # Homebrew brews updates
