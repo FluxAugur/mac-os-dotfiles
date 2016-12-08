@@ -1,4 +1,5 @@
 ---
+gemhome: /Users/lastson/.gem
 :benchmark: false
 :verbose: true
 :update_sources: true
