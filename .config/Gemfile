@@ -1,4 +1,5 @@
 gem 'bundler'
 gem 'jekyll'
 gem 'kramdown'
+gem 'nokogiri', '--use-system-libraries --with-xml2-lib=/usr/local/opt/libxml2/lib --with-xml2-include=/usr/local/opt/libxml2/include/libxml2'
 gem 'rails'

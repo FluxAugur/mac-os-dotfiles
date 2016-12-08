@@ -114,6 +114,7 @@ brew 'wget', args: ['with-iri', 'with-pcre']
 brew 'go'
 brew 'gobject-introspection'
 brew 'hubflow'
+brew 'libxml2', args: ['with-python']
 brew 'llvm'
 brew 'numpy', args: ['with-python3']
 brew 'rbenv'
