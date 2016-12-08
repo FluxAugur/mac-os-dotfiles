@@ -6,106 +6,143 @@ tap 'homebrew/bundle'
 tap 'homebrew/dupes'
 tap 'homebrew/php'
 tap 'homebrew/python'
-# tap 'fisherman/tap'
 
+# No dependencies
 brew 'ack'
 brew 'autoconf'
-brew 'automake'
 brew 'awscli'
 brew 'binutils'
 brew 'bfg'
-brew 'boost'
-brew 'cairo'
-brew 'cctools'
-brew 'cmake'
-brew 'coreutils', args: ['with-default-names']
-brew 'diffutils', args: ['with-default-names']
-brew 'doxygen'
-brew 'findutils', args: ['with-default-names'] # can cause Python builds to fail
-brew 'ffmpeg', args: ['with-default-names']
-brew 'fish'
-# brew 'fisherman'
-brew 'fontconfig'
-brew 'freetype'
-brew 'gcc', args: ['with-default-names', 'with-all-languages']
-brew 'gdk-pixbuf'
+brew 'diffutils'
+brew 'docbook'
+brew 'ecj'
+brew 'findutils'
 brew 'gdbm'
 brew 'gettext'
-brew 'git'
-brew 'git-flow-avh'
-brew 'glib'
 brew 'gmp'
-brew 'gnutls', args: ['with-default-names']
-brew 'gnu-getopt', args: ['with-default-names']
-brew 'gnu-sed', args: ['with-default-names']
-brew 'gnu-tar', args: ['with-default-names']
-brew 'gnu-which', args: ['with-default-names']
-brew 'gobject-introspection'
-brew 'grep', args: ['with-default-names']
+brew 'gnu-sed'
+brew 'gnu-tar'
+brew 'gnu-which'
 brew 'gzip'
-brew 'harfbuzz'
-brew 'highlight',
 brew 'htop'
-brew 'hub'
-brew 'hubflow'
 brew 'icu4c'
-brew 'imagemagick', args: ['with-webp', 'with-librsvg']
-brew 'isl'
+brew 'intltool'
 brew 'jpeg'
-brew 'keybase'
 brew 'lame'
-brew 'libcroco'
-brew 'libevent'
 brew 'libffi'
-brew 'libmpc'
+brew 'libgpg-error'
 brew 'libpng'
-brew 'libsvg'
-brew 'libtermkey'
-brew 'libtiff'
+brew 'libtasn1'
 brew 'libtool'
-brew 'libuv'
-brew 'libvterm'
+brew 'libusb'
 brew 'lua'
 brew 'mackup'
 brew 'markdown'
 brew 'mas'
-brew 'moreutils', args: ['with-default-names']
-brew 'mpfr'
-brew 'msgpack'
-brew 'neovim'
-brew 'nmap'
-brew 'node'
-brew 'numpy', args: ['with-python3', 'without-python']
-brew 'openssl'
-brew 'pango'
+brew 'osxutils'
 brew 'pcre'
 brew 'pcre2'
-brew 'pixman'
 brew 'pkg-config'
-brew 'python', args: ['framework', 'with-brewed-openssl']
-brew 'python3', args: ['framework', 'with-brewed-openssl']
-brew 'rbenv'
-brew 'rbenv-default-gems'
-brew 'rbenv-gemset'
+brew 'pth'
 brew 'readline'
-brew 'ruby-build'
-brew 'scipy', args: ['with-python3', 'without-python']
-brew 'screen'
-brew 'shared-mime-info'
-brew 'shellcheck'
+brew 'sphinx-doc'
 brew 'ssh-copy-id'
-brew 'swig'
-brew 'tmux'
-brew 'trash'
+brew 'tcl-tk', args: ['with-threads']
+brew 'texi2html'
 brew 'tree'
-brew 'unibilium'
-brew 'vim', args: ['override-system-vi']
-brew 'watch'
-brew 'webp'
-brew 'wget', args: ['enable-iri']
-brew 'x264'
 brew 'xvid'
 brew 'xz'
+
+# 1 level of dependencies
+brew 'automake'
+brew 'boost', args: ['with-icu4c']
+brew 'cmake'
+brew 'coreutils', args: ['with-gmp']
+brew 'docbook-xsl'
+brew 'fish'
+brew 'freetype'
+brew 'glib'
+brew 'gnu-getopt'
+brew 'grep'
+brew 'isl'
+brew 'libassuan'
+brew 'libgcrypt'
+brew 'libidn'
+brew 'libksba'
+brew 'libsvg'
+brew 'libtermkey'
+brew 'libtiff'
+brew 'libusb-compat'
+brew 'libvterm'
+brew 'makedepend'
+brew 'mpfr'
+brew 'nettle'
+brew 'pixman'
+brew 'sqlite', args: ['with-docs', 'with-functions', 'with-icu4c', 'with-json1', 'with-session']
+brew 'swig'
+brew 'unibilium'
+brew 'webp', args: ['with-libtiff']
+
+# 2-levels of dependencies
+brew 'fontconfig'
+brew 'git-flow-avh'
+brew 'gnutls'
+brew 'highlight',
+brew 'libcroco'
+brew 'libmpc'
+brew 'libuv'
+brew 'msgpack'
+brew 'moreutils'
+brew 'openssl'
+brew 'pinentry'
+brew 'screen'
+brew 'shared-mime-info'
+
+# 3-levels of dependencies
+brew 'cairo'
+brew 'gcc', args: ['with-all-languages']
+brew 'git', args: ['with-blk-sha1', 'with-brewed-openssl', 'with-gettext', 'with-pcre']
+brew 'neovim'
+brew 'nmap'
+brew 'node', args: ['with-debug', 'with-openssl']
+brew 'python', args: ['with-sphinx-doc', 'with-tcl-tk']
+brew 'python3', args: ['with-sphinx-doc', 'with-tcl-tk']
+brew 'ruby-build'
+brew 'wget', args: ['with-iri', 'with-pcre']
+
+# 4-levels of dependencies
+brew 'go'
+brew 'gobject-introspection'
+brew 'hubflow'
+brew 'llvm'
+brew 'numpy', args: ['with-python3']
+brew 'rbenv'
+brew 'scipy', args: ['with-python3']
+brew 'shellcheck'
+brew 'vim', args: ['with-lua', 'with-override-system-vi', 'with-python3']
+brew 'watch'
+brew 'yasm', args: ['with-python']
+
+# 5-levels of dependencies
+brew 'cctools', args: ['with-llvm']
+brew 'doxygen', args: ['with-llvm']
+brew 'ffmpeg'
+brew 'gdk-pixbuf'
+brew 'harfbuzz', args: ['with-cairo']
+brew 'hub'
+brew 'keybase'
+brew 'rbenv-default-gems'
+brew 'rbenv-gemset'
+brew 'x264'
+
+# 6-levels of dependencies
+brew 'libevent'
+brew 'pango'
+
+# 7-levels of dependencies
+brew 'imagemagick', args: ['with-fontconfig', 'with-librsvg', 'with-pango', 'with-webp']
+brew 'tmux'
+
 
 cask_args appdir: '~/Applications'
 
