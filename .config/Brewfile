@@ -12,12 +12,14 @@ brew 'ack'
 brew 'autoconf'
 brew 'automake'
 brew 'awscli'
+brew 'binutils', args: ['with-default-names']
 brew 'bfg'
 brew 'boost'
 brew 'cairo'
 brew 'cctools'
 brew 'cmake'
 brew 'coreutils', args: ['with-default-names']
+brew 'diffutils', args: ['with-default-names']
 brew 'doxygen'
 brew 'findutils', args: ['with-default-names'] # can cause Python builds to fail
 brew 'ffmpeg', args: ['with-default-names']
@@ -33,12 +35,18 @@ brew 'git'
 brew 'git-flow-avh'
 brew 'glib'
 brew 'gmp'
-brew 'gnupg'
-brew 'gnu-getopt'
+brew 'gnutls', args: ['with-default-names']
+brew 'gnu-getopt', args: ['with-default-names']
+brew 'gnu-sed', args: ['with-default-names']
+brew 'gnu-tar', args: ['with-default-names']
+brew 'gnu-which', args: ['with-default-names']
 brew 'gobject-introspection'
+brew 'gpg'
 brew 'homebrew/dupes/grep', args: ['with-default-names']
+brew 'gzip'
 brew 'harfbuzz'
-brew 'highlight'
+brew 'highlight',
+brew 'htop'
 brew 'hub'
 brew 'hubflow'
 brew 'icu4c'
@@ -66,6 +74,7 @@ brew 'moreutils', args: ['with-default-names']
 brew 'mpfr'
 brew 'msgpack'
 brew 'neovim'
+brew 'nmap'
 brew 'node'
 brew 'numpy', args: ['with-python3', 'without-python']
 brew 'openssl'
