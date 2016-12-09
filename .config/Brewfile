@@ -253,6 +253,7 @@ cask 'mysqlworkbench'
 cask 'postman'
 cask 'quip'
 cask 'rescuetime'
+cask 'screens' # Use Special K app patcher
 cask 'sequel-pro'
 cask 'skype'
 cask 'slack'
