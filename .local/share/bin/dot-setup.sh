@@ -54,6 +54,9 @@ fi
 brew cleanup
 brew cask cleanup
 
+brew info --json=v1 --all > "$HOME/.local/share/brew-info-all.json"
+jq "map(select(.installed != [])) | map({name: .name, description: .desc, homepage: .homepage, version: .installed[].version, options: .installed[].used_options}) | sort_by(.name)" < "$HOME/.local/share/brew-info-all.json" > "$HOME/.local/share/brew-info-installed.json"
+
 rm -rf "$HOME/.bash_history" "$HOME/.bash_sessions" "$HOME/.subversion/"
 
 if [[ ! -f "$HOME/.config/Homebrew.terminal" ]]; then

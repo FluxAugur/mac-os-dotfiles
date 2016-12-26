@@ -1,0 +1,933 @@
+[
+  {
+    "name": "ack",
+    "description": "Search tool like grep, but optimized for programmers",
+    "homepage": "http://beyondgrep.com/",
+    "version": "2.14",
+    "options": []
+  },
+  {
+    "name": "autoconf",
+    "description": "Automatic configure script builder",
+    "homepage": "https://www.gnu.org/software/autoconf",
+    "version": "2.69",
+    "options": []
+  },
+  {
+    "name": "automake",
+    "description": "Tool for generating GNU Standards-compliant Makefiles",
+    "homepage": "https://www.gnu.org/software/automake/",
+    "version": "1.15",
+    "options": []
+  },
+  {
+    "name": "awscli",
+    "description": "Official Amazon AWS command-line interface",
+    "homepage": "https://aws.amazon.com/cli/",
+    "version": "1.11.34",
+    "options": []
+  },
+  {
+    "name": "bfg",
+    "description": "Remove large files or passwords from Git history like git-filter-branch",
+    "homepage": "https://rtyley.github.io/bfg-repo-cleaner/",
+    "version": "1.12.13",
+    "options": []
+  },
+  {
+    "name": "binutils",
+    "description": "FSF Binutils for native development",
+    "homepage": "https://www.gnu.org/software/binutils/binutils.html",
+    "version": "2.27",
+    "options": []
+  },
+  {
+    "name": "boost",
+    "description": "Collection of portable C++ source libraries",
+    "homepage": "https://www.boost.org/",
+    "version": "1.62.0",
+    "options": [
+      "--with-icu4c"
+    ]
+  },
+  {
+    "name": "cairo",
+    "description": "Vector graphics library with cross-device output support",
+    "homepage": "https://cairographics.org/",
+    "version": "1.14.8",
+    "options": []
+  },
+  {
+    "name": "cctools",
+    "description": "Binary and cross-compilation tools for Apple",
+    "homepage": "https://opensource.apple.com/",
+    "version": "855",
+    "options": [
+      "--with-llvm"
+    ]
+  },
+  {
+    "name": "cmake",
+    "description": "Cross-platform make",
+    "homepage": "https://www.cmake.org/",
+    "version": "3.7.1",
+    "options": []
+  },
+  {
+    "name": "coreutils",
+    "description": "GNU File, Shell, and Text utilities",
+    "homepage": "https://www.gnu.org/software/coreutils",
+    "version": "8.26",
+    "options": [
+      "--with-gmp"
+    ]
+  },
+  {
+    "name": "diffutils",
+    "description": "File comparison utilities",
+    "homepage": "https://www.gnu.org/s/diffutils/",
+    "version": "3.5",
+    "options": []
+  },
+  {
+    "name": "docbook",
+    "description": "Standard SGML representation system for technical documents",
+    "homepage": "http://docbook.sourceforge.net/",
+    "version": "5.0",
+    "options": []
+  },
+  {
+    "name": "doxygen",
+    "description": "Generate documentation for several programming languages",
+    "homepage": "http://www.doxygen.org/",
+    "version": "1.8.12",
+    "options": [
+      "--with-llvm"
+    ]
+  },
+  {
+    "name": "ecj",
+    "description": "Standalone version of the Eclipse Java compiler",
+    "homepage": "https://gcc.gnu.org/",
+    "version": "4.9",
+    "options": []
+  },
+  {
+    "name": "ffmpeg",
+    "description": "Play, record, convert, and stream audio and video",
+    "homepage": "https://ffmpeg.org/",
+    "version": "3.2.2",
+    "options": []
+  },
+  {
+    "name": "findutils",
+    "description": "Collection of GNU find, xargs, and locate",
+    "homepage": "https://www.gnu.org/software/findutils/",
+    "version": "4.6.0",
+    "options": []
+  },
+  {
+    "name": "fish",
+    "description": "User-friendly command-line shell for UNIX-like operating systems",
+    "homepage": "https://fishshell.com",
+    "version": "2.4.0",
+    "options": []
+  },
+  {
+    "name": "fontconfig",
+    "description": "XML-based font configuration API for X Windows",
+    "homepage": "https://wiki.freedesktop.org/www/Software/fontconfig/",
+    "version": "2.12.1_2",
+    "options": []
+  },
+  {
+    "name": "freetype",
+    "description": "Software library to render fonts",
+    "homepage": "https://www.freetype.org/",
+    "version": "2.7",
+    "options": []
+  },
+  {
+    "name": "gcc",
+    "description": "GNU compiler collection",
+    "homepage": "https://gcc.gnu.org",
+    "version": "6.3.0",
+    "options": [
+      "--with-all-languages"
+    ]
+  },
+  {
+    "name": "gdbm",
+    "description": "GNU database manager",
+    "homepage": "https://www.gnu.org/software/gdbm/",
+    "version": "1.12",
+    "options": []
+  },
+  {
+    "name": "gdk-pixbuf",
+    "description": "Toolkit for image loading and pixel buffer manipulation",
+    "homepage": "http://gtk.org",
+    "version": "2.36.2",
+    "options": []
+  },
+  {
+    "name": "gettext",
+    "description": "GNU internationalization (i18n) and localization (l10n) library",
+    "homepage": "https://www.gnu.org/software/gettext/",
+    "version": "0.19.8.1",
+    "options": []
+  },
+  {
+    "name": "git",
+    "description": "Distributed revision control system",
+    "homepage": "https://git-scm.com",
+    "version": "2.11.0",
+    "options": [
+      "--with-blk-sha1",
+      "--with-brewed-openssl",
+      "--with-pcre",
+      "--with-gettext"
+    ]
+  },
+  {
+    "name": "git-flow-avh",
+    "description": "AVH edition of git-flow",
+    "homepage": "https://github.com/petervanderdoes/gitflow-avh",
+    "version": "1.10.2",
+    "options": []
+  },
+  {
+    "name": "glib",
+    "description": "Core application library for C",
+    "homepage": "https://developer.gnome.org/glib/",
+    "version": "2.50.2",
+    "options": []
+  },
+  {
+    "name": "gmp",
+    "description": "GNU multiple precision arithmetic library",
+    "homepage": "https://gmplib.org/",
+    "version": "6.1.1",
+    "options": []
+  },
+  {
+    "name": "gmp",
+    "description": "GNU multiple precision arithmetic library",
+    "homepage": "https://gmplib.org/",
+    "version": "6.1.2",
+    "options": []
+  },
+  {
+    "name": "gmp",
+    "description": "GNU multiple precision arithmetic library",
+    "homepage": "https://gmplib.org/",
+    "version": "6.1.2",
+    "options": []
+  },
+  {
+    "name": "gmp",
+    "description": "GNU multiple precision arithmetic library",
+    "homepage": "https://gmplib.org/",
+    "version": "6.1.1",
+    "options": []
+  },
+  {
+    "name": "gnu-getopt",
+    "description": "Command-line option parsing library",
+    "homepage": "http://software.frodo.looijaard.name/getopt/",
+    "version": "1.1.6",
+    "options": []
+  },
+  {
+    "name": "gnu-sed",
+    "description": "GNU implementation of the famous stream editor",
+    "homepage": "https://www.gnu.org/software/sed/",
+    "version": "4.2.2",
+    "options": []
+  },
+  {
+    "name": "gnu-tar",
+    "description": "GNU version of the tar archiving utility",
+    "homepage": "https://www.gnu.org/software/tar/",
+    "version": "1.29_1",
+    "options": []
+  },
+  {
+    "name": "gnutls",
+    "description": "GNU Transport Layer Security (TLS) Library",
+    "homepage": "https://gnutls.org/",
+    "version": "3.4.17",
+    "options": []
+  },
+  {
+    "name": "go",
+    "description": "The Go programming language",
+    "homepage": "https://golang.org",
+    "version": "1.7.4_1",
+    "options": []
+  },
+  {
+    "name": "gobject-introspection",
+    "description": "Generate introspection data for GObject libraries",
+    "homepage": "https://live.gnome.org/GObjectIntrospection",
+    "version": "1.50.0",
+    "options": []
+  },
+  {
+    "name": "grep",
+    "description": "GNU grep, egrep and fgrep",
+    "homepage": "https://www.gnu.org/software/grep/",
+    "version": "2.27",
+    "options": []
+  },
+  {
+    "name": "gzip",
+    "description": "Popular GNU data compression program",
+    "homepage": "https://www.gnu.org/software/gzip",
+    "version": "1.8",
+    "options": []
+  },
+  {
+    "name": "harfbuzz",
+    "description": "OpenType text shaping engine",
+    "homepage": "https://wiki.freedesktop.org/www/Software/HarfBuzz/",
+    "version": "1.3.4_1",
+    "options": [
+      "--with-cairo"
+    ]
+  },
+  {
+    "name": "highlight",
+    "description": "Convert source code to formatted text with syntax highlighting",
+    "homepage": "http://www.andre-simon.de/doku/highlight/en/highlight.html",
+    "version": "3.33",
+    "options": []
+  },
+  {
+    "name": "hub",
+    "description": "Add GitHub support to git on the command-line",
+    "homepage": "https://hub.github.com/",
+    "version": "2.2.9",
+    "options": []
+  },
+  {
+    "name": "hubflow",
+    "description": "GitFlow for GitHub",
+    "homepage": "https://datasift.github.io/gitflow/",
+    "version": "1.5.2",
+    "options": []
+  },
+  {
+    "name": "icu4c",
+    "description": "C/C++ and Java libraries for Unicode and globalization",
+    "homepage": "http://site.icu-project.org/",
+    "version": "58.2",
+    "options": []
+  },
+  {
+    "name": "imagemagick",
+    "description": "Tools and libraries to manipulate images in many formats",
+    "homepage": "https://www.imagemagick.org/",
+    "version": "6.9.7-0",
+    "options": [
+      "--with-fontconfig",
+      "--with-librsvg",
+      "--with-webp",
+      "--with-pango"
+    ]
+  },
+  {
+    "name": "intltool",
+    "description": "String tool",
+    "homepage": "https://wiki.freedesktop.org/www/Software/intltool",
+    "version": "0.51.0",
+    "options": []
+  },
+  {
+    "name": "isl",
+    "description": "Integer Set Library for the polyhedral model",
+    "homepage": "http://isl.gforge.inria.fr",
+    "version": "0.17.1",
+    "options": []
+  },
+  {
+    "name": "isl",
+    "description": "Integer Set Library for the polyhedral model",
+    "homepage": "http://isl.gforge.inria.fr",
+    "version": "0.18",
+    "options": []
+  },
+  {
+    "name": "isl",
+    "description": "Integer Set Library for the polyhedral model",
+    "homepage": "http://isl.gforge.inria.fr",
+    "version": "0.17.1",
+    "options": []
+  },
+  {
+    "name": "isl",
+    "description": "Integer Set Library for the polyhedral model",
+    "homepage": "http://isl.gforge.inria.fr",
+    "version": "0.18",
+    "options": []
+  },
+  {
+    "name": "jpeg",
+    "description": "Image manipulation library",
+    "homepage": "http://www.ijg.org",
+    "version": "8d",
+    "options": []
+  },
+  {
+    "name": "jq",
+    "description": "Lightweight and flexible command-line JSON processor",
+    "homepage": "https://stedolan.github.io/jq/",
+    "version": "1.5_2",
+    "options": []
+  },
+  {
+    "name": "keybase",
+    "description": "Command-line interface to Keybase.io",
+    "homepage": "https://keybase.io/",
+    "version": "1.0.18",
+    "options": []
+  },
+  {
+    "name": "lame",
+    "description": "High quality MPEG Audio Layer III (MP3) encoder",
+    "homepage": "http://lame.sourceforge.net/",
+    "version": "3.99.5",
+    "options": []
+  },
+  {
+    "name": "libassuan",
+    "description": "Assuan IPC Library",
+    "homepage": "https://www.gnupg.org/related_software/libassuan/",
+    "version": "2.4.3_1",
+    "options": []
+  },
+  {
+    "name": "libcroco",
+    "description": "CSS parsing and manipulation toolkit for GNOME",
+    "homepage": "http://www.linuxfromscratch.org/blfs/view/svn/general/libcroco.html",
+    "version": "0.6.11",
+    "options": []
+  },
+  {
+    "name": "libevent",
+    "description": "Asynchronous event library",
+    "homepage": "http://libevent.org",
+    "version": "2.0.22",
+    "options": []
+  },
+  {
+    "name": "libffi",
+    "description": "Portable Foreign Function Interface library",
+    "homepage": "https://sourceware.org/libffi/",
+    "version": "3.0.13",
+    "options": []
+  },
+  {
+    "name": "libgcrypt",
+    "description": "Cryptographic library based on the code from GnuPG",
+    "homepage": "https://directory.fsf.org/wiki/Libgcrypt",
+    "version": "1.7.5",
+    "options": []
+  },
+  {
+    "name": "libgpg-error",
+    "description": "Common error values for all GnuPG components",
+    "homepage": "https://www.gnupg.org/related_software/libgpg-error/",
+    "version": "1.26",
+    "options": []
+  },
+  {
+    "name": "libidn",
+    "description": "International domain name library",
+    "homepage": "https://www.gnu.org/software/libidn/",
+    "version": "1.33",
+    "options": []
+  },
+  {
+    "name": "libksba",
+    "description": "X.509 and CMS library",
+    "homepage": "https://www.gnupg.org/related_software/libksba/",
+    "version": "1.3.5",
+    "options": []
+  },
+  {
+    "name": "libmpc",
+    "description": "C library for the arithmetic of high precision complex numbers",
+    "homepage": "http://multiprecision.org",
+    "version": "1.0.3",
+    "options": []
+  },
+  {
+    "name": "libpng",
+    "description": "Library for manipulating PNG images",
+    "homepage": "http://www.libpng.org/pub/png/libpng.html",
+    "version": "1.6.26",
+    "options": []
+  },
+  {
+    "name": "librsvg",
+    "description": "Library to render SVG files using Cairo",
+    "homepage": "https://live.gnome.org/LibRsvg",
+    "version": "2.40.16_1",
+    "options": []
+  },
+  {
+    "name": "libsvg",
+    "description": "Library for SVG files",
+    "homepage": "https://cairographics.org/",
+    "version": "0.1.4_1",
+    "options": []
+  },
+  {
+    "name": "libtasn1",
+    "description": "ASN.1 structure parser library",
+    "homepage": "https://www.gnu.org/software/libtasn1/",
+    "version": "4.9",
+    "options": []
+  },
+  {
+    "name": "libtermkey",
+    "description": "Library for processing keyboard entry from the terminal",
+    "homepage": "http://www.leonerd.org.uk/code/libtermkey/",
+    "version": "0.19",
+    "options": []
+  },
+  {
+    "name": "libtiff",
+    "description": "TIFF library and utilities",
+    "homepage": "http://libtiff.maptools.org/",
+    "version": "4.0.7",
+    "options": []
+  },
+  {
+    "name": "libtool",
+    "description": "Generic library support script",
+    "homepage": "https://www.gnu.org/software/libtool/",
+    "version": "2.4.6_1",
+    "options": []
+  },
+  {
+    "name": "libusb",
+    "description": "Library for USB device access",
+    "homepage": "http://libusb.info",
+    "version": "1.0.20",
+    "options": []
+  },
+  {
+    "name": "libusb-compat",
+    "description": "Library for USB device access",
+    "homepage": "http://www.libusb.org/",
+    "version": "0.1.5",
+    "options": []
+  },
+  {
+    "name": "libuv",
+    "description": "Multi-platform support library with a focus on asynchronous I/O",
+    "homepage": "https://github.com/libuv/libuv",
+    "version": "1.10.1",
+    "options": []
+  },
+  {
+    "name": "libvterm",
+    "description": "C99 library which implements a VT220 or xterm terminal emulator.",
+    "homepage": "http://www.leonerd.org.uk/code/libvterm/",
+    "version": "681",
+    "options": []
+  },
+  {
+    "name": "libxml2",
+    "description": "GNOME XML library",
+    "homepage": "http://xmlsoft.org",
+    "version": "2.9.4",
+    "options": [
+      "--with-python"
+    ]
+  },
+  {
+    "name": "llvm",
+    "description": "Next-gen compiler infrastructure",
+    "homepage": "http://llvm.org/",
+    "version": "3.9.1",
+    "options": []
+  },
+  {
+    "name": "lua",
+    "description": "Powerful, lightweight programming language",
+    "homepage": "https://www.lua.org/",
+    "version": "5.2.4_4",
+    "options": []
+  },
+  {
+    "name": "mackup",
+    "description": "Keep your Mac's application settings in sync",
+    "homepage": "https://github.com/lra/mackup",
+    "version": "0.8.15",
+    "options": []
+  },
+  {
+    "name": "makedepend",
+    "description": "Creates dependencies in makefiles",
+    "homepage": "https://x.org/",
+    "version": "1.0.5",
+    "options": []
+  },
+  {
+    "name": "markdown",
+    "description": "Text-to-HTML conversion tool",
+    "homepage": "https://daringfireball.net/projects/markdown/",
+    "version": "1.0.1",
+    "options": []
+  },
+  {
+    "name": "mas",
+    "description": "Mac App Store command-line interface",
+    "homepage": "https://github.com/argon/mas",
+    "version": "1.3.1",
+    "options": []
+  },
+  {
+    "name": "moreutils",
+    "description": "Collection of tools that nobody wrote when UNIX was young",
+    "homepage": "https://joeyh.name/code/moreutils/",
+    "version": "0.60",
+    "options": []
+  },
+  {
+    "name": "mpfr",
+    "description": "C library for multiple-precision floating-point computations",
+    "homepage": "http://www.mpfr.org/",
+    "version": "3.1.5",
+    "options": []
+  },
+  {
+    "name": "msgpack",
+    "description": "Library for a binary-based efficient data interchange format",
+    "homepage": "https://msgpack.org/",
+    "version": "2.0.0",
+    "options": []
+  },
+  {
+    "name": "neovim",
+    "description": "Ambitious Vim-fork focused on extensibility and agility",
+    "homepage": "https://neovim.io",
+    "version": "0.1.7",
+    "options": []
+  },
+  {
+    "name": "nettle",
+    "description": "Low-level cryptographic library",
+    "homepage": "https://www.lysator.liu.se/~nisse/nettle/",
+    "version": "3.3",
+    "options": []
+  },
+  {
+    "name": "node",
+    "description": "Platform built on V8 to build network applications",
+    "homepage": "https://nodejs.org/",
+    "version": "7.3.0",
+    "options": []
+  },
+  {
+    "name": "numpy",
+    "description": "Package for scientific computing with Python",
+    "homepage": "http://www.numpy.org",
+    "version": "1.11.2",
+    "options": [
+      "--with-python3"
+    ]
+  },
+  {
+    "name": "oniguruma",
+    "description": "Regular expressions library",
+    "homepage": "https://github.com/kkos/oniguruma/",
+    "version": "6.1.3",
+    "options": []
+  },
+  {
+    "name": "openssl",
+    "description": "SSL/TLS cryptography library",
+    "homepage": "https://openssl.org/",
+    "version": "1.0.2j",
+    "options": []
+  },
+  {
+    "name": "osxutils",
+    "description": "Suite of Mac OS command-line utilities",
+    "homepage": "https://github.com/specious/osxutils",
+    "version": "1.8.2",
+    "options": []
+  },
+  {
+    "name": "p7zip",
+    "description": "7-Zip (high compression file archiver) implementation",
+    "homepage": "http://p7zip.sourceforge.net/",
+    "version": "16.02",
+    "options": []
+  },
+  {
+    "name": "pango",
+    "description": "Framework for layout and rendering of i18n text",
+    "homepage": "http://www.pango.org/",
+    "version": "1.40.3",
+    "options": []
+  },
+  {
+    "name": "pcre",
+    "description": "Perl compatible regular expressions library",
+    "homepage": "http://www.pcre.org/",
+    "version": "8.39",
+    "options": []
+  },
+  {
+    "name": "pcre2",
+    "description": "Perl compatible regular expressions library with a new API",
+    "homepage": "http://www.pcre.org/",
+    "version": "10.22",
+    "options": []
+  },
+  {
+    "name": "pinentry",
+    "description": "Passphrase entry dialog utilizing the Assuan protocol",
+    "homepage": "https://www.gnupg.org/related_software/pinentry/",
+    "version": "0.9.7",
+    "options": []
+  },
+  {
+    "name": "pixman",
+    "description": "Low-level library for pixel manipulation",
+    "homepage": "https://cairographics.org/",
+    "version": "0.34.0",
+    "options": []
+  },
+  {
+    "name": "pkg-config",
+    "description": "Manage compile and link flags for libraries",
+    "homepage": "https://freedesktop.org/wiki/Software/pkg-config/",
+    "version": "0.29.1_2",
+    "options": []
+  },
+  {
+    "name": "pth",
+    "description": "GNU Portable THreads",
+    "homepage": "https://www.gnu.org/software/pth/",
+    "version": "2.0.7",
+    "options": []
+  },
+  {
+    "name": "python",
+    "description": "Interpreted, interactive, object-oriented programming language",
+    "homepage": "https://www.python.org",
+    "version": "2.7.13",
+    "options": [
+      "--with-tcl-tk",
+      "--with-sphinx-doc"
+    ]
+  },
+  {
+    "name": "python3",
+    "description": "Interpreted, interactive, object-oriented programming language",
+    "homepage": "https://www.python.org/",
+    "version": "3.6.0",
+    "options": [
+      "--with-tcl-tk",
+      "--with-sphinx-doc"
+    ]
+  },
+  {
+    "name": "rbenv",
+    "description": "Ruby version manager",
+    "homepage": "https://github.com/rbenv/rbenv#readme",
+    "version": "1.1.0",
+    "options": []
+  },
+  {
+    "name": "rbenv-default-gems",
+    "description": "Auto-installs gems for Ruby installs",
+    "homepage": "https://github.com/sstephenson/rbenv-default-gems",
+    "version": "1.0.0",
+    "options": []
+  },
+  {
+    "name": "rbenv-gemset",
+    "description": "Adds basic gemset support to rbenv",
+    "homepage": "https://github.com/jf/rbenv-gemset",
+    "version": "0.5.9",
+    "options": []
+  },
+  {
+    "name": "readline",
+    "description": "Library for command-line editing",
+    "homepage": "https://tiswww.case.edu/php/chet/readline/rltop.html",
+    "version": "7.0.1",
+    "options": []
+  },
+  {
+    "name": "ruby-build",
+    "description": "Install various Ruby versions and implementations",
+    "homepage": "https://github.com/rbenv/ruby-build",
+    "version": "20161225",
+    "options": []
+  },
+  {
+    "name": "scipy",
+    "description": "Software for mathematics, science, and engineering",
+    "homepage": "http://www.scipy.org",
+    "version": "0.18.1",
+    "options": [
+      "--with-python3"
+    ]
+  },
+  {
+    "name": "screen",
+    "description": "Terminal multiplexer with VT100/ANSI terminal emulation",
+    "homepage": "https://www.gnu.org/software/screen",
+    "version": "4.4.0",
+    "options": []
+  },
+  {
+    "name": "shared-mime-info",
+    "description": "Database of common MIME types",
+    "homepage": "https://wiki.freedesktop.org/www/Software/shared-mime-info",
+    "version": "1.8",
+    "options": []
+  },
+  {
+    "name": "shellcheck",
+    "description": "Static analysis and lint tool, for (ba)sh scripts",
+    "homepage": "https://www.shellcheck.net/",
+    "version": "0.4.5",
+    "options": []
+  },
+  {
+    "name": "sphinx-doc",
+    "description": "Tool to create intelligent and beautiful documentation",
+    "homepage": "http://sphinx-doc.org",
+    "version": "1.4.5",
+    "options": []
+  },
+  {
+    "name": "sqlite",
+    "description": "Command-line interface for SQLite",
+    "homepage": "https://sqlite.org/",
+    "version": "3.15.2",
+    "options": [
+      "--with-docs",
+      "--with-functions",
+      "--with-icu4c",
+      "--with-json1",
+      "--with-session"
+    ]
+  },
+  {
+    "name": "ssh-copy-id",
+    "description": "Add a public key to a remote machine's authorized_keys file",
+    "homepage": "https://www.openssh.com/",
+    "version": "7.4p1",
+    "options": []
+  },
+  {
+    "name": "swig",
+    "description": "Generate scripting interfaces to C/C++ code",
+    "homepage": "http://www.swig.org/",
+    "version": "3.0.10_1",
+    "options": []
+  },
+  {
+    "name": "tcl-tk",
+    "description": "Tool Command Language",
+    "homepage": "https://www.tcl.tk/",
+    "version": "8.6.6",
+    "options": []
+  },
+  {
+    "name": "texi2html",
+    "description": "Convert TeXinfo files to HTML",
+    "homepage": "http://www.nongnu.org/texi2html/",
+    "version": "5.0",
+    "options": []
+  },
+  {
+    "name": "tmux",
+    "description": "Terminal multiplexer",
+    "homepage": "https://tmux.github.io/",
+    "version": "2.3_2",
+    "options": []
+  },
+  {
+    "name": "tree",
+    "description": "Display directories as trees (with optional color/HTML output)",
+    "homepage": "http://mama.indstate.edu/users/ice/tree/",
+    "version": "1.7.0",
+    "options": []
+  },
+  {
+    "name": "unibilium",
+    "description": "Very basic terminfo library.",
+    "homepage": "https://github.com/mauke/unibilium",
+    "version": "1.2.0",
+    "options": []
+  },
+  {
+    "name": "vim",
+    "description": "Vi \"workalike\" with many additional features",
+    "homepage": "http://www.vim.org/",
+    "version": "8.0.0134_2",
+    "options": [
+      "--with-override-system-vi",
+      "--with-python3",
+      "--with-lua"
+    ]
+  },
+  {
+    "name": "watch",
+    "description": "Executes a program periodically, showing output fullscreen",
+    "homepage": "https://gitlab.com/procps-ng/procps",
+    "version": "3.3.12",
+    "options": []
+  },
+  {
+    "name": "webp",
+    "description": "Image format providing lossless and lossy compression for web images",
+    "homepage": "https://developers.google.com/speed/webp/",
+    "version": "0.5.2",
+    "options": [
+      "--with-libtiff"
+    ]
+  },
+  {
+    "name": "wget",
+    "description": "Internet file retriever",
+    "homepage": "https://www.gnu.org/software/wget/",
+    "version": "1.18",
+    "options": [
+      "--with-iri",
+      "--with-pcre"
+    ]
+  },
+  {
+    "name": "x264",
+    "description": "H.264/AVC encoder",
+    "homepage": "https://www.videolan.org/developers/x264.html",
+    "version": "r2728",
+    "options": []
+  },
+  {
+    "name": "xvid",
+    "description": "High-performance, high-quality MPEG-4 video library",
+    "homepage": "https://www.xvid.org",
+    "version": "1.3.4",
+    "options": []
+  },
+  {
+    "name": "xz",
+    "description": "General-purpose data compression with high compression ratio",
+    "homepage": "http://tukaani.org/xz/",
+    "version": "5.2.2",
+    "options": []
+  }
+]
