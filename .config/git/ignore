@@ -27,6 +27,7 @@
 .local/share/omf/
 .local/share/z/.z
 .pnpm/
+.rbenv/
 .rbenv-gemsets
 .rdebugrc
 .rspec
@@ -281,7 +282,6 @@ pids
 .irb-history
 .irb/history
 .irb_history
-.rbenv/
 .rbx/
 .repl_history
 .rubinius_last_error

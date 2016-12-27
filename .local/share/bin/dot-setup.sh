@@ -92,6 +92,12 @@ if [[ -d "$HOME/.pnpm" ]]; then
   mkdir "$HOME/.pnpm"
 fi
 link "$HOME/.config/pnpm/package.json" "$HOME/.pnpm/package.json"
+if [[ -d "$HOME/.rbenv" ]]; then
+  mkdir "$HOME/.rbenv"
+fi
+link "$HOME/.config/rbenv/default-gems" "$HOME/.rbenv/default-gems"
+link "$HOME/.config/rbenv/version" "$HOME/.rbenv/version"
+link "$HOME/.config/rbenv/version" "$HOME/.config/ruby/ruby-version"
 link "$HOME/.config/rbenv-gemsets/rbenv-gemsets" "$HOME/.rbenv-gemsets"
 link "$HOME/.config/rdebug/rdebugrc" "$HOME/.rdebugrc"
 link "$HOME/.config/rspec/rspec" "$HOME/.rspec"
