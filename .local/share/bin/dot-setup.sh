@@ -20,6 +20,11 @@ chmod 0700 "$HOME/.ssh/"
 find "$HOME/.ssh/" -maxdepth 0 -type f ! -name "*.pub" -exec chmod 0600 {} ';'
 find "$HOME/.ssh/" -maxdepth 0 -type f -name "*.pub" -exec chmod 0644 {} ';'
 
+chmod 0700 "$HOME/.private"
+find "$HOME/.private/" -maxdepth 2 -type d -exec chmod 0700 {} ';'
+find "$HOME/.private/" -maxdepth 3 -type f ! -name "*.pub" -exec chmod 0600 {} ';'
+find "$HOME/.private/" -maxdepth 3 -type f -name "*.pub" -exec chmod 0644 {} ';'
+
 mkdir -p "$HOME/.config/" "$HOME/.local/share/bin/"
 
 if [[ ! -f "$HOME/.config/Brewfile" ]]; then
@@ -105,6 +110,7 @@ link "$HOME/.config/ruby/ruby-version" "$HOME/.ruby-version"
 link "$HOME/.config/sass-lint/sass-lint.yml" "$HOME/.sass-lint.yml"
 link "$HOME/.config/screen/screenrc" "$HOME/.screenrc"
 link "$HOME/.config/scss-lint/scss-lint.yml" "$HOME/.scss-lint.yml"
+link "$HOME/.config/ssh/id_rsa.pub" "$HOME/.ssh/id_rsa.pub"
 link "$HOME/.config/tmux/tmux.conf" "$HOME/.tmux.conf"
 link "$HOME/.config/vim/viminfo" "$HOME/.viminfo"
 if [[ -d "$HOME/.virtualenvs" ]]; then
@@ -122,4 +128,8 @@ link "$HOME/.config/virtualenvs/predeactivate" "$HOME/.virtualenvs/predeactivate
 link "$HOME/.config/virtualenvs/premkproject" "$HOME/.virtualenvs/premkproject"
 link "$HOME/.config/virtualenvs/premkvirtualenv" "$HOME/.virtualenvs/premkvirtualenv"
 link "$HOME/.config/virtualenvs/prermvirtualenv" "$HOME/.virtualenvs/prermvirtualenv"
-ln -s "$HOME/.local/share/z/.z" "$HOME/.z"
+link "$HOME/.local/share/z/.z" "$HOME/.z"
+# private links
+link "$HOME/.private/keys/android/adbkey" "$HOME/.android/adbkey"
+link "$HOME/.private/keys/ssh/id_rsa" "$HOME/.ssh/id_rsa"
+link "$HOME/.private/ssh/known_hosts" "$HOME/.ssh/known_hosts"

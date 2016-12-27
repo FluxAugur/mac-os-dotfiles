@@ -25,7 +25,6 @@
 .local/share/fish/
 .local/share/nvim/
 .local/share/omf/
-.local/share/z/.z
 .pnpm/
 .rbenv/
 .rbenv-gemsets
@@ -35,6 +34,7 @@
 .sass-lint.yml
 .screenrc
 .scss-lint.yml
+.ssh/
 .tmux.conf
 .viminfo
 .virtualenvs/
@@ -444,7 +444,6 @@ Public/
 .python-eggs
 .rnd
 .sh_history
-.ssh
 .sup/
 .terraform.d
 .travis
