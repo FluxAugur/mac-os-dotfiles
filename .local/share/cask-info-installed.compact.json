@@ -1,0 +1,637 @@
+[
+  {
+    "name": "aerial",
+    "homepage": "https://github.com/JohnCoates/Aerial",
+    "version": "1.2"
+  },
+  {
+    "name": "alfred",
+    "homepage": "https://www.alfredapp.com/",
+    "version": "3.2.1_768"
+  },
+  {
+    "name": "atom",
+    "homepage": "https://atom.io/",
+    "version": "1.12.7"
+  },
+  {
+    "name": "caffeine",
+    "homepage": "http://lightheadsw.com/caffeine/",
+    "version": "1.1.1"
+  },
+  {
+    "name": "calibre",
+    "homepage": "https://calibre-ebook.com/",
+    "version": "2.75.1"
+  },
+  {
+    "name": "cheatsheet",
+    "homepage": "https://www.cheatsheetapp.com/CheatSheet/",
+    "version": "1.2.6"
+  },
+  {
+    "name": "chrome-remote-desktop-host",
+    "homepage": "https://chrome.google.com/webstore/detail/chrome-remote-desktop/gbchcmhmhahfdphkhkmpfmihenigjmpp",
+    "version": "latest"
+  },
+  {
+    "name": "colorpicker",
+    "homepage": "http://www.northernspysoftware.com/software/colorpicker",
+    "version": "1.7"
+  },
+  {
+    "name": "dash",
+    "homepage": "https://kapeli.com/dash",
+    "version": "3.4.2"
+  },
+  {
+    "name": "diffmerge",
+    "homepage": "https://www.sourcegear.com/diffmerge/",
+    "version": "4.2.1.1013"
+  },
+  {
+    "name": "doxie",
+    "homepage": "http://www.getdoxie.com/",
+    "version": "latest"
+  },
+  {
+    "name": "doxygen",
+    "homepage": "https://www.stack.nl/~dimitri/doxygen/",
+    "version": "1.8.12"
+  },
+  {
+    "name": "dropbox",
+    "homepage": "https://www.dropbox.com/",
+    "version": "16.4.30"
+  },
+  {
+    "name": "evernote",
+    "homepage": "https://evernote.com/",
+    "version": "6.10_454267"
+  },
+  {
+    "name": "firefox",
+    "homepage": "https://www.mozilla.org/firefox/",
+    "version": "50.1.0"
+  },
+  {
+    "name": "flash-npapi",
+    "homepage": "https://get.adobe.com/flashplayer/",
+    "version": "24.0.0.186"
+  },
+  {
+    "name": "flash-ppapi",
+    "homepage": "https://get.adobe.com/flashplayer/otherversions/",
+    "version": "24.0.0.186"
+  },
+  {
+    "name": "flux",
+    "homepage": "https://justgetflux.com/",
+    "version": "37.7"
+  },
+  {
+    "name": "font-alegreya",
+    "homepage": "http://www.google.com/fonts/specimen/Alegreya",
+    "version": "latest"
+  },
+  {
+    "name": "font-alegreya-sans",
+    "homepage": "http://www.google.com/fonts/specimen/Alegreya%20Sans",
+    "version": "latest"
+  },
+  {
+    "name": "font-alegreya-sans-sc",
+    "homepage": "http://www.google.com/fonts/specimen/Alegreya%20Sans%20SC",
+    "version": "latest"
+  },
+  {
+    "name": "font-alegreya-sc",
+    "homepage": "http://www.google.com/fonts/specimen/Alegreya%20SC",
+    "version": "latest"
+  },
+  {
+    "name": "font-anonymice-powerline",
+    "homepage": "https://github.com/powerline/fonts/tree/master/AnonymousPro",
+    "version": "latest"
+  },
+  {
+    "name": "font-anonymous-pro",
+    "homepage": "http://www.marksimonson.com/fonts/view/anonymous-pro",
+    "version": "1.002"
+  },
+  {
+    "name": "font-arvo",
+    "homepage": "http://www.google.com/fonts/specimen/Arvo",
+    "version": "latest"
+  },
+  {
+    "name": "font-cabin",
+    "homepage": "http://www.google.com/fonts/specimen/Cabin",
+    "version": "latest"
+  },
+  {
+    "name": "font-cabin-condensed",
+    "homepage": "http://www.google.com/fonts/specimen/Cabin%20Condensed",
+    "version": "latest"
+  },
+  {
+    "name": "font-cabin-sketch",
+    "homepage": "http://www.google.com/fonts/specimen/Cabin%20Sketch",
+    "version": "latest"
+  },
+  {
+    "name": "font-cinzel",
+    "homepage": "http://www.google.com/fonts/specimen/Cinzel",
+    "version": "latest"
+  },
+  {
+    "name": "font-cinzel-decorative",
+    "homepage": "http://www.google.com/fonts/specimen/Cinzel%20Decorative",
+    "version": "latest"
+  },
+  {
+    "name": "font-consolas-for-powerline",
+    "homepage": "https://github.com/eugeii/consolas-powerline-vim",
+    "version": "latest"
+  },
+  {
+    "name": "font-dejavu-sans-mono-for-powerline",
+    "homepage": "https://github.com/powerline/fonts/tree/master/DejaVuSansMono",
+    "version": "latest"
+  },
+  {
+    "name": "font-droid-sans",
+    "homepage": "http://www.google.com/fonts/specimen/Droid%20Sans",
+    "version": "latest"
+  },
+  {
+    "name": "font-droid-sans-mono",
+    "homepage": "http://www.google.com/fonts/specimen/Droid%20Sans%20Mono",
+    "version": "latest"
+  },
+  {
+    "name": "font-droid-sans-mono-for-powerline",
+    "homepage": "https://github.com/powerline/fonts/tree/master/DroidSansMono",
+    "version": "latest"
+  },
+  {
+    "name": "font-droid-serif",
+    "homepage": "http://www.google.com/fonts/specimen/Droid%20Serif",
+    "version": "latest"
+  },
+  {
+    "name": "font-fanwood-text",
+    "homepage": "http://www.google.com/fonts/specimen/Fanwood%20Text",
+    "version": "latest"
+  },
+  {
+    "name": "font-fira-code",
+    "homepage": "https://github.com/tonsky/FiraCode",
+    "version": "1.204"
+  },
+  {
+    "name": "font-fira-mono",
+    "homepage": "https://mozilla.github.io/Fira/",
+    "version": "3.206,4.202"
+  },
+  {
+    "name": "font-fira-mono-for-powerline",
+    "homepage": "https://github.com/powerline/fonts/tree/master/FiraMono",
+    "version": "latest"
+  },
+  {
+    "name": "font-fira-sans",
+    "homepage": "https://mozilla.github.io/Fira/",
+    "version": "4.202"
+  },
+  {
+    "name": "font-firacode-nerd-font",
+    "homepage": "https://github.com/ryanoasis/nerd-fonts",
+    "version": "0.8.0"
+  },
+  {
+    "name": "font-firacode-nerd-font-mono",
+    "homepage": "https://github.com/ryanoasis/nerd-fonts",
+    "version": "0.8.0"
+  },
+  {
+    "name": "font-hack-nerd-font",
+    "homepage": "https://github.com/ryanoasis/nerd-fonts",
+    "version": "0.8.0"
+  },
+  {
+    "name": "font-inconsolata-dz-for-powerline",
+    "homepage": "https://github.com/powerline/fonts/tree/master/InconsolataDz",
+    "version": "latest"
+  },
+  {
+    "name": "font-inconsolata-for-powerline",
+    "homepage": "https://github.com/powerline/fonts/tree/master/Inconsolata",
+    "version": "latest"
+  },
+  {
+    "name": "font-inconsolata-g-for-powerline",
+    "homepage": "https://github.com/powerline/fonts/tree/master/Inconsolata-g",
+    "version": "latest"
+  },
+  {
+    "name": "font-karla",
+    "homepage": "http://www.google.com/fonts/specimen/Karla",
+    "version": "latest"
+  },
+  {
+    "name": "font-lato",
+    "homepage": "http://www.latofonts.com/",
+    "version": "latest"
+  },
+  {
+    "name": "font-liberation-mono-for-powerline",
+    "homepage": "https://github.com/powerline/fonts/tree/master/LiberationMono",
+    "version": "latest"
+  },
+  {
+    "name": "font-libre-baskerville",
+    "homepage": "http://www.google.com/fonts/specimen/Libre%20Baskerville",
+    "version": "latest"
+  },
+  {
+    "name": "font-libre-caslon-text",
+    "homepage": "http://www.impallari.com/projects/overview/libre-caslon-display-and-text",
+    "version": "latest"
+  },
+  {
+    "name": "font-linden-hill",
+    "homepage": "http://www.google.com/fonts/specimen/Linden%20Hill",
+    "version": "latest"
+  },
+  {
+    "name": "font-lora",
+    "homepage": "http://www.google.com/fonts/specimen/Lora",
+    "version": "latest"
+  },
+  {
+    "name": "font-menlo-for-powerline",
+    "homepage": "https://github.com/abertsch/Menlo-for-Powerline",
+    "version": "latest"
+  },
+  {
+    "name": "font-merriweather",
+    "homepage": "http://www.google.com/fonts/specimen/Merriweather",
+    "version": "latest"
+  },
+  {
+    "name": "font-merriweather-sans",
+    "homepage": "http://www.google.com/fonts/specimen/Merriweather%20Sans",
+    "version": "latest"
+  },
+  {
+    "name": "font-meslo-lg-for-powerline",
+    "homepage": "https://github.com/powerline/fonts/tree/master/Meslo",
+    "version": "latest"
+  },
+  {
+    "name": "font-monofur-for-powerline",
+    "homepage": "https://github.com/powerline/fonts/tree/master/Monofur",
+    "version": "latest"
+  },
+  {
+    "name": "font-montserrat",
+    "homepage": "https://github.com/JulietaUla/Montserrat",
+    "version": "latest"
+  },
+  {
+    "name": "font-montserrat-alternates",
+    "homepage": "http://www.google.com/fonts/specimen/Montserrat%20Alternates",
+    "version": "latest"
+  },
+  {
+    "name": "font-open-sans",
+    "homepage": "http://www.google.com/fonts/specimen/Open+Sans",
+    "version": "latest"
+  },
+  {
+    "name": "font-open-sans-condensed",
+    "homepage": "http://www.google.com/fonts/specimen/Open%20Sans%20Condensed",
+    "version": "latest"
+  },
+  {
+    "name": "font-orbitron",
+    "homepage": "http://www.google.com/fonts/specimen/Orbitron",
+    "version": "latest"
+  },
+  {
+    "name": "font-oswald",
+    "homepage": "http://www.google.com/fonts/specimen/Oswald",
+    "version": "latest"
+  },
+  {
+    "name": "font-playfair-display",
+    "homepage": "http://www.google.com/fonts/specimen/Playfair%20Display",
+    "version": "latest"
+  },
+  {
+    "name": "font-playfair-display-sc",
+    "homepage": "http://www.google.com/fonts/specimen/Playfair%20Display%20SC",
+    "version": "latest"
+  },
+  {
+    "name": "font-pt-mono",
+    "homepage": "http://www.paratype.com/public/",
+    "version": "latest"
+  },
+  {
+    "name": "font-pt-sans",
+    "homepage": "http://www.paratype.com/public/",
+    "version": "latest"
+  },
+  {
+    "name": "font-pt-serif",
+    "homepage": "http://www.paratype.com/public/",
+    "version": "latest"
+  },
+  {
+    "name": "font-quicksand",
+    "homepage": "http://www.google.com/fonts/specimen/Quicksand",
+    "version": "latest"
+  },
+  {
+    "name": "font-raleway",
+    "homepage": "http://www.google.com/fonts/specimen/Raleway",
+    "version": "latest"
+  },
+  {
+    "name": "font-raleway-dots",
+    "homepage": "http://www.google.com/fonts/specimen/Raleway+Dots",
+    "version": "latest"
+  },
+  {
+    "name": "font-roboto",
+    "homepage": "http://www.google.com/fonts/specimen/Roboto",
+    "version": "latest"
+  },
+  {
+    "name": "font-roboto-condensed",
+    "homepage": "http://www.google.com/fonts/specimen/Roboto%20Condensed",
+    "version": "latest"
+  },
+  {
+    "name": "font-roboto-mono",
+    "homepage": "http://www.google.com/fonts/specimen/Roboto%20Mono",
+    "version": "latest"
+  },
+  {
+    "name": "font-roboto-mono-for-powerline",
+    "homepage": "https://github.com/powerline/fonts/tree/master/RobotoMono",
+    "version": "latest"
+  },
+  {
+    "name": "font-roboto-slab",
+    "homepage": "http://www.google.com/fonts/specimen/Roboto%20Slab",
+    "version": "latest"
+  },
+  {
+    "name": "font-source-code-pro",
+    "homepage": "http://adobe-fonts.github.io/source-code-pro/",
+    "version": "2.030R-ro-1.050R-it"
+  },
+  {
+    "name": "font-source-code-pro-for-powerline",
+    "homepage": "https://github.com/powerline/fonts/tree/master/SourceCodePro",
+    "version": "latest"
+  },
+  {
+    "name": "font-source-sans-pro",
+    "homepage": "http://adobe-fonts.github.io/source-sans-pro/",
+    "version": "2.020R-ro-1.075R-it"
+  },
+  {
+    "name": "font-source-serif-pro",
+    "homepage": "https://adobe-fonts.github.io/source-serif-pro/",
+    "version": "1.017R"
+  },
+  {
+    "name": "font-telex",
+    "homepage": "http://www.google.com/fonts/specimen/Telex",
+    "version": "latest"
+  },
+  {
+    "name": "font-ubuntu",
+    "homepage": "http://font.ubuntu.com/",
+    "version": "0.83"
+  },
+  {
+    "name": "font-ubuntu-mono-derivative-powerline",
+    "homepage": "https://github.com/powerline/fonts/tree/master/UbuntuMono",
+    "version": "latest"
+  },
+  {
+    "name": "font-vollkorn",
+    "homepage": "http://vollkorn-typeface.com/",
+    "version": "3.005"
+  },
+  {
+    "name": "google-chrome",
+    "homepage": "https://www.google.com/chrome/",
+    "version": "latest"
+  },
+  {
+    "name": "google-drive",
+    "homepage": "https://drive.google.com/",
+    "version": "latest"
+  },
+  {
+    "name": "gpgtools",
+    "homepage": "https://gpgtools.org/",
+    "version": "2016.10_v2"
+  },
+  {
+    "name": "ibackupbot",
+    "homepage": "http://www.icopybot.com/itunes-backup-manager.htm",
+    "version": "latest"
+  },
+  {
+    "name": "ifunbox",
+    "homepage": "http://www.i-funbox.com/",
+    "version": "1.8"
+  },
+  {
+    "name": "iterm2-beta",
+    "homepage": "https://www.iterm2.com/",
+    "version": "3.0.13"
+  },
+  {
+    "name": "java",
+    "homepage": "https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html",
+    "version": "1.8.0_112-b16"
+  },
+  {
+    "name": "karabiner",
+    "homepage": "https://pqrs.org/osx/karabiner/",
+    "version": "10.22.0"
+  },
+  {
+    "name": "keybase",
+    "homepage": "https://keybase.io/",
+    "version": "latest"
+  },
+  {
+    "name": "kodi",
+    "homepage": "https://kodi.tv/",
+    "version": "16.1"
+  },
+  {
+    "name": "mactex",
+    "homepage": "https://www.tug.org/mactex/",
+    "version": "20161009"
+  },
+  {
+    "name": "macvim",
+    "homepage": "https://github.com/macvim-dev/macvim",
+    "version": "8.0.119"
+  },
+  {
+    "name": "mysqlworkbench",
+    "homepage": "https://www.mysql.com/products/workbench/",
+    "version": "6.3.8"
+  },
+  {
+    "name": "postman",
+    "homepage": "https://www.getpostman.com/",
+    "version": "4.9.2"
+  },
+  {
+    "name": "qlcolorcode",
+    "homepage": "https://github.com/anthonygelibert/QLColorCode",
+    "version": "2.0.8"
+  },
+  {
+    "name": "qlimagesize",
+    "homepage": "https://github.com/Nyx0uf/qlImageSize",
+    "version": "latest"
+  },
+  {
+    "name": "qlmarkdown",
+    "homepage": "https://github.com/toland/qlmarkdown",
+    "version": "1.3.5"
+  },
+  {
+    "name": "qlstephen",
+    "homepage": "https://whomwah.github.io/qlstephen/",
+    "version": "1.4.4"
+  },
+  {
+    "name": "quicklook-csv",
+    "homepage": "https://github.com/p2/quicklook-csv",
+    "version": "1.3"
+  },
+  {
+    "name": "quicklook-json",
+    "homepage": "http://www.sagtau.com/quicklookjson.html",
+    "version": "latest"
+  },
+  {
+    "name": "quip",
+    "homepage": "https://quip.com/",
+    "version": "4.7.37"
+  },
+  {
+    "name": "rescuetime",
+    "homepage": "https://www.rescuetime.com/",
+    "version": "latest"
+  },
+  {
+    "name": "screens",
+    "homepage": "https://edovia.com/screens/#mac",
+    "version": "3.8.4"
+  },
+  {
+    "name": "screens-connect",
+    "homepage": "https://screensconnect.com/",
+    "version": "4.2"
+  },
+  {
+    "name": "sequel-pro",
+    "homepage": "https://www.sequelpro.com/",
+    "version": "1.1.2"
+  },
+  {
+    "name": "skype",
+    "homepage": "https://www.skype.com/",
+    "version": "latest"
+  },
+  {
+    "name": "slack",
+    "homepage": "https://slack.com/",
+    "version": "2.3.4"
+  },
+  {
+    "name": "spectacle",
+    "homepage": "https://www.spectacleapp.com/",
+    "version": "1.2"
+  },
+  {
+    "name": "spotifree",
+    "homepage": "http://spotifree.gordinskiy.com/",
+    "version": "1.6.5"
+  },
+  {
+    "name": "spotify",
+    "homepage": "https://www.spotify.com/",
+    "version": "latest"
+  },
+  {
+    "name": "steam",
+    "homepage": "http://store.steampowered.com/about/",
+    "version": "latest"
+  },
+  {
+    "name": "sublime-text",
+    "homepage": "https://www.sublimetext.com/3",
+    "version": "3126"
+  },
+  {
+    "name": "suspicious-package",
+    "homepage": "http://www.mothersruin.com/software/SuspiciousPackage/",
+    "version": "latest"
+  },
+  {
+    "name": "textual",
+    "homepage": "https://www.codeux.com/textual/",
+    "version": "latest"
+  },
+  {
+    "name": "tower",
+    "homepage": "https://www.git-tower.com/",
+    "version": "2.5.3-337-441ac672"
+  },
+  {
+    "name": "transmission",
+    "homepage": "https://transmissionbt.com/",
+    "version": "2.92"
+  },
+  {
+    "name": "transmit",
+    "homepage": "https://panic.com/transmit/",
+    "version": "4.4.10"
+  },
+  {
+    "name": "vagrant",
+    "homepage": "https://www.vagrantup.com/",
+    "version": "1.9.1"
+  },
+  {
+    "name": "virtualbox",
+    "homepage": "https://www.virtualbox.org/",
+    "version": "5.1.12-112440"
+  },
+  {
+    "name": "virtualbox-extension-pack",
+    "homepage": "https://www.virtualbox.org/",
+    "version": "5.1.12-112440"
+  },
+  {
+    "name": "vlc",
+    "homepage": "https://www.videolan.org/vlc/",
+    "version": "2.2.4"
+  }
+]

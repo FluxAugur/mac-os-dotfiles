@@ -58,7 +58,7 @@
   dw = !git d --word-diff
   empty = !git cma '[empty] Initial commit' --allow-empty
   export = archive -o latest.tar.gz -9 --prefix=latest/
-  gd = !git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  gd = !git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)< %an >%Creset' --abbrev-commit --date=relative
   gf = !git ls-files | grep -i
   la = !git cf -l | grep alias | cut -c 7-
   # last = !gvim $(git sw HEAD --format="" --name-only | grep -e .*md$ | xargs)

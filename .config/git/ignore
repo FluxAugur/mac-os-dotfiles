@@ -1,5 +1,46 @@
 # Global git ignore                                                            #
-### OS generated files
+
+# Dotfiles git directory
+##############################################################################
+.local/share/dotfiles
+
+# Sensitive info directory
+##############################################################################
+.private
+
+# Directories and files linked from dotfiles into home directory
+##############################################################################
+.android/
+.ackrc
+.atom/
+.cups/
+.editorconfig
+.gemrc
+.gitconfig
+.gitignore
+.htmlhintrc
+.jspm/
+.local/share/bin/httpcompression.sh
+.local/share/bin/subtrees.sh
+.local/share/fish/
+.local/share/nvim/
+.local/share/omf/
+.local/share/z/.z
+.pnpm/
+.rbenv-gemsets
+.rdebugrc
+.rspec
+.ruby-version
+.sass-lint.yml
+.screenrc
+.scss-lint.yml
+.tmux.conf
+.viminfo
+.virtualenvs/
+.z
+
+# OS generated files
+##############################################################################
 ._*
 .AppleDB
 .AppleDesktop
@@ -22,14 +63,6 @@ Network Trash Folder
 Temporary Items
 Thumbs.db
 ehthumbs.db
-
-# Dotfiles git directory
-##############################################################################
-.local/share/dotfiles
-
-# Sensitive info directory
-##############################################################################
-.private
 
 # Compiled source
 ##############################################################################
@@ -68,7 +101,6 @@ ehthumbs.db
 ##############################################################################
 .cache/
 .ctrlp_cache
-.cups/
 *.log
 *.sql
 *.sqlite
@@ -200,9 +232,6 @@ fabric.properties
 *.tgz
 .eslintcache
 .grunt
-.local/share/bin/httpcompression
-.local/share/fish
-.local/share/bin/subtrees
 .lock-wscript
 .node-gyp
 .node_repl_history
@@ -229,8 +258,6 @@ pids
 *.bridgesupport
 # *.gem # Ignored in 'Archives and packages'
 *.rbc
-.ackrc
-.gemrc
 /.bundle/
 /.config/configstore
 /.config/fish/fishd*
@@ -259,7 +286,6 @@ pids
 .repl_history
 .rubinius_last_error
 .ruby-gemset
-.ruby-version
 .rvm
 .rvmrc
 Gemfile.lock
@@ -386,7 +412,6 @@ Public/
 *.pem
 # *.tmp # Ignored in 'Eclipse'
 .adobe
-.atom
 .backup
 .bash_aliases
 .bash_history

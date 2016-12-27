@@ -1,0 +1,25 @@
+{
+  "name": "pnpm-global-pkg",
+  "version": "1.0.0",
+  "private": true,
+  "config": {
+    "npm": {
+      "storePath": "~/.pnpm/.store"
+    }
+  },
+  "dependencies": {
+    "bower": "^1.8.0",
+    "browser-sync": "^2.18.5",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-init": "^0.3.2",
+    "nodemon": "^1.11.0",
+    "npm": "^4.0.5",
+    "npm-check-updates": "^2.8.9",
+    "png2svg": "^0.0.7",
+    "pnpm": "^0.45.1",
+    "prettyjson": "^1.2.1",
+    "sass-lint": "^1.10.2",
+    "svgo": "^0.7.1"
+  }
+}
