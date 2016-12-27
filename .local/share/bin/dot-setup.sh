@@ -66,70 +66,42 @@ if [[ ! -f "$HOME/.config/Homebrew.terminal" ]]; then
 fi
 
 # link configs and other dotfiles to home directory
-if [[ ! -d "$HOME/.android" ]]; then
-  mkdir "$HOME/.android"
-fi
-link "$HOME/.config/android/adbkey.pub" "$HOME/.android/adbkey.pub"
-link "$HOME/.config/ack/ackrc" "$HOME/.ackrc"
-if [[ ! -d "$HOME/.atom" ]]; then
-  mkdir "$HOME/.atom"
-fi
-link "$HOME/.config/atom/config.cson" "$HOME/.atom/config.cson"
-link "$HOME/.config/atom/init.coffee" "$HOME/.atom/init.coffee"
-link "$HOME/.config/atom/keymap.cson" "$HOME/.atom/keymap.cson"
-link "$HOME/.config/atom/projects.cson" "$HOME/.atom/projects.cson"
-link "$HOME/.config/atom/snippets.cson" "$HOME/.atom/snippets.cson"
-link "$HOME/.config/atom/styles.less" "$HOME/.atom/styles.less"
-if [[ -d "$HOME/.cups" ]]; then
-  mkdir "$HOME/.cups"
-fi
-link "$HOME/.config/cups/lpoptions" "$HOME/.cups/lpoptions"
-link "$HOME/.config/editorconfig/editorconfig" "$HOME/.editorconfig"
-link "$HOME/.config/gem/gemrc" "$HOME/.gemrc"
-link "$HOME/.config/git/config" "$HOME/.gitconfig"
-link "$HOME/.config/git/ignore" "$HOME/.gitignore"
-link "$HOME/.config/htmlhint/htmlhintrc" "$HOME/.htmlhintrc"
-if [[ -d "$HOME/.jspm" ]]; then
-  mkdir "$HOME/.jspm"
-fi
-link "$HOME/.config/jspm/config" "$HOME/.jspm/config"
-if [[ -d "$HOME/.pnpm" ]]; then
-  mkdir "$HOME/.pnpm"
-fi
-link "$HOME/.config/pnpm/package.json" "$HOME/.pnpm/package.json"
-if [[ -d "$HOME/.rbenv" ]]; then
-  mkdir "$HOME/.rbenv"
-fi
-link "$HOME/.config/rbenv/default-gems" "$HOME/.rbenv/default-gems"
-link "$HOME/.config/rbenv/version" "$HOME/.rbenv/version"
-link "$HOME/.config/rbenv/version" "$HOME/.config/ruby/ruby-version"
-link "$HOME/.config/rbenv-gemsets/rbenv-gemsets" "$HOME/.rbenv-gemsets"
-link "$HOME/.config/rdebug/rdebugrc" "$HOME/.rdebugrc"
-link "$HOME/.config/rspec/rspec" "$HOME/.rspec"
-link "$HOME/.config/ruby/ruby-version" "$HOME/.ruby-version"
-link "$HOME/.config/sass-lint/sass-lint.yml" "$HOME/.sass-lint.yml"
-link "$HOME/.config/screen/screenrc" "$HOME/.screenrc"
-link "$HOME/.config/scss-lint/scss-lint.yml" "$HOME/.scss-lint.yml"
-link "$HOME/.config/ssh/id_rsa.pub" "$HOME/.ssh/id_rsa.pub"
-link "$HOME/.config/tmux/tmux.conf" "$HOME/.tmux.conf"
-link "$HOME/.config/vim/viminfo" "$HOME/.viminfo"
-if [[ -d "$HOME/.virtualenvs" ]]; then
-  mkdir "$HOME/.virtualenvs"
-fi
-link "$HOME/.config/virtualenvs/get_env_details" "$HOME/.virtualenvs/get_env_details"
-link "$HOME/.config/virtualenvs/initialize" "$HOME/.virtualenvs/initialize"
-link "$HOME/.config/virtualenvs/postactivate" "$HOME/.virtualenvs/postactivate"
-link "$HOME/.config/virtualenvs/postdeactive" "$HOME/.virtualenvs/postdeactive"
-link "$HOME/.config/virtualenvs/postmkproject" "$HOME/.virtualenvs/postmkproject"
-link "$HOME/.config/virtualenvs/postmkvirtualenv" "$HOME/.virtualenvs/postmkvirtualenv"
-link "$HOME/.config/virtualenvs/postrmvirtualenv" "$HOME/.virtualenvs/postrmvirtualenv"
-link "$HOME/.config/virtualenvs/preactivate" "$HOME/.virtualenvs/preactivate"
-link "$HOME/.config/virtualenvs/predeactivate" "$HOME/.virtualenvs/predeactivate"
-link "$HOME/.config/virtualenvs/premkproject" "$HOME/.virtualenvs/premkproject"
-link "$HOME/.config/virtualenvs/premkvirtualenv" "$HOME/.virtualenvs/premkvirtualenv"
-link "$HOME/.config/virtualenvs/prermvirtualenv" "$HOME/.virtualenvs/prermvirtualenv"
-link "$HOME/.local/share/z/.z" "$HOME/.z"
+ln -f "$HOME/.config/android/adbkey.pub" "$HOME/.android/adbkey.pub"
+ln -f "$HOME/.config/ack/ackrc" "$HOME/.ackrc"
+ln -f "$HOME/.config/atom/config.cson" "$HOME/.atom/config.cson"
+ln -f "$HOME/.config/atom/init.coffee" "$HOME/.atom/init.coffee"
+ln -f "$HOME/.config/atom/keymap.cson" "$HOME/.atom/keymap.cson"
+ln -f "$HOME/.config/atom/projects.cson" "$HOME/.atom/projects.cson"
+ln -f "$HOME/.config/atom/snippets.cson" "$HOME/.atom/snippets.cson"
+ln -f "$HOME/.config/atom/styles.less" "$HOME/.atom/styles.less"
+ln -f "$HOME/.config/cups/lpoptions" "$HOME/.cups/lpoptions"
+ln -f "$HOME/.config/editorconfig/editorconfig" "$HOME/.editorconfig"
+ln -f "$HOME/.config/gem/gemrc" "$HOME/.gemrc"
+ln -f "$HOME/.config/git/config" "$HOME/.gitconfig"
+ln -f "$HOME/.config/git/ignore" "$HOME/.gitignore"
+ln -f "$HOME/.config/htmlhint/htmlhintrc" "$HOME/.htmlhintrc"
+ln -f "$HOME/.config/jspm/config" "$HOME/.jspm/config"
+ln -f "$HOME/.config/pnpm/package.json" "$HOME/.pnpm/package.json"
+ln -f "$HOME/.config/rbenv/default-gems" "$HOME/.rbenv/default-gems"
+ln -f "$HOME/.config/rbenv/version" "$HOME/.rbenv/version"
+ln -f "$HOME/.config/rbenv/version" "$HOME/.config/ruby/ruby-version"
+ln -f "$HOME/.config/rbenv-gemsets/rbenv-gemsets" "$HOME/.rbenv-gemsets"
+ln -f "$HOME/.config/rdebug/rdebugrc" "$HOME/.rdebugrc"
+ln -f "$HOME/.config/rspec/rspec" "$HOME/.rspec"
+ln -f "$HOME/.config/ruby/ruby-version" "$HOME/.ruby-version"
+ln -f "$HOME/.config/sass-lint/sass-lint.yml" "$HOME/.sass-lint.yml"
+ln -f "$HOME/.config/screen/screenrc" "$HOME/.screenrc"
+ln -f "$HOME/.config/scss-lint/scss-lint.yml" "$HOME/.scss-lint.yml"
+ln -f "$HOME/.config/ssh/id_rsa.pub" "$HOME/.ssh/id_rsa.pub"
+ln -f "$HOME/.config/tmux/tmux.conf" "$HOME/.tmux.conf"
+ln -f "$HOME/.config/vim/viminfo" "$HOME/.viminfo"
+ln -f "$HOME/.local/share/z/.z" "$HOME/.z"
+
+hln "$HOME/.config/virtualenvs/" "$HOME/.virtualenvs"
+
 # private links
-link "$HOME/.private/keys/android/adbkey" "$HOME/.android/adbkey"
-link "$HOME/.private/keys/ssh/id_rsa" "$HOME/.ssh/id_rsa"
-link "$HOME/.private/ssh/known_hosts" "$HOME/.ssh/known_hosts"
+ln -f "$HOME/.private/keys/android/adbkey" "$HOME/.android/adbkey"
+ln -f "$HOME/.private/keys/ssh/id_rsa" "$HOME/.ssh/id_rsa"
+ln -f "$HOME/.private/ssh/known_hosts" "$HOME/.ssh/known_hosts"
+
+hln "$HOME/.private/gnupg/" "$HOME/.gnupg"
